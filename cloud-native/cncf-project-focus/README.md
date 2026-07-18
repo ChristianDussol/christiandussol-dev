@@ -25,7 +25,7 @@ The plumbing layer. How do you compose serverless, infrastructure provisioning, 
 
 * Episode 1, [Knative](arc-1-knative.md): Vendor-neutral serverless on Kubernetes
 * Episode 2, [Crossplane](arc-1-crossplane.md): One Kubernetes API, any cloud provider
-* Episode 3, [Cilium](arc-1-cillium.md): Kernel-native Kubernetes networking
+* Episode 3, [Cilium](arc-1-cilium.md): Kernel-native Kubernetes networking
 
 ### Arc 2: Observability
 

@@ -11,7 +11,7 @@
 * [CNCF Project Focus](cloud-native/cncf-project-focus/README.md)
   * [Episode 1: Knative](cloud-native/cncf-project-focus/arc-1-knative.md)
   * [Episode 2: Crossplane](cloud-native/cncf-project-focus/arc-1-crossplane.md)
-  * [Episode 3: Cillium](cloud-native/cncf-project-focus/arc-1-cillium.md)
+  * [Episode 3: Cilium](cloud-native/cncf-project-focus/arc-1-cilium.md)
   * [Episode 4: Prometheus](cloud-native/cncf-project-focus/arc-2-prometheus.md)
   * [Episode 5: OpenTelemetry](cloud-native/cncf-project-focus/arc-2-opentelemetry.md)
 
