@@ -11,12 +11,11 @@ Skills are a format for packaging reusable AI capabilities, a `SKILL.md` file pl
 
 The series follows a deliberate progression. Each part unlocks a capability the previous one could not show.
 
-\
-Part 1: Understand → What a Skill is\
-Part 2: Generate → A Skill produces code\
-Part 3: Compose → A Skill calls another Skill\
-Part 4: Connect → A Skill reaches the real world via MCP\
-Part 5: Govern → Skills as a foundation for AI governance<br>
+Part 1: Understand → What a Skill is\
+Part 2: Generate → A Skill produces code\
+Part 3: Compose → A Skill calls another Skill\
+Part 4: Connect → A Skill reaches the real world via MCP\
+Part 5: Govern → Skills as a foundation for AI governance
 
 [**Part 1: How Claude Code Skills Work**](part-1-how-claude-code-skills-work.md)**.** What a Skill actually is. Anatomy (`SKILL.md`, frontmatter, progressive disclosure), invocation flow, and where Skills sit in the four-layer framework of AI agents. _Skills are to AI agents what Helm Charts are to Kubernetes deployments._
 
@@ -26,9 +25,9 @@ Part 5: Govern → Skills as a foundation for AI governance<br>
 
 [**Part 3: When Skills Talk to Each Other**](part-3-when-skills-talk-to-each-other.md)**.** A Skill can audit, and Skills can call each other. The `kyverno-policy-auditor` runs an 8-dimension audit and triggers the generator when it detects gaps. Skills are not tools. They are an ecosystem.
 
-[**Part 4: Connecting Skills to the Real World via MCP**](part-3-when-skills-talk-to-each-other.md)**.** A Skill can reach beyond Claude. A FinOps Skill that pulls real cost data via MCP, analyzes it, and triggers governance actions. The full loop: data → analysis → action.
+[**Part 4: Connecting Skills to the Real World via MCP**](part-4-connecting-skills-to-the-real-world-via-mcp.md)**.** A Skill can reach beyond Claude. A FinOps Skill that pulls real cost data via MCP, analyzes it, and triggers governance actions. The full loop: data → analysis → action.
 
-[**Part 5: Skills as a Foundation for AI Governance**](part-5-skills-as-a-foundation-for-ai-governance.md)**.** What I learned from building the series. Skills as one of the answers to the question every platform engineer is starting to ask: _how do we govern AI agents when they stop being demos and become infrastructure?_ The bridge to CNCF Arc 3 (KAgent, KServe, KGateway)3
+[**Part 5: Skills as a Foundation for AI Governance**](part-5-skills-as-a-foundation-for-ai-governance.md)**.** What I learned from building the series. Skills as one of the answers to the question every platform engineer is starting to ask: _how do we govern AI agents when they stop being demos and become infrastructure?_ The bridge to CNCF Arc 3 (KAgent, KServe, KGateway)
 
 All code is open source under the [https://github.com/christian-dussol-cloud-native/kyverno/tree/main/skills](https://github.com/christian-dussol-cloud-native/kyverno/tree/main/skills) repository, licensed CC BY-SA 4.0. The experiments are public and the things that didn't work are part of the record.
 
