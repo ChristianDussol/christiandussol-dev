@@ -15,6 +15,6 @@ This section holds what does not belong to the cloud-native or AI-native arcs bu
 
 ### In this section
 
-#### [FinOps: Turning Cloud Spending Into Competitive Advantage](finops-turning-cloud-spending-into-competitive-advantage.md)
+#### [FinOps: Turning Cloud Spending Into Competitive Advantage](turning-cloud-spending-into-competitive-advantage.md)
 
 Why FinOps is not about spending less. The six principles, the three-phase journey, the maturity model, and the emerging frontier where policy-as-code meets cost management.

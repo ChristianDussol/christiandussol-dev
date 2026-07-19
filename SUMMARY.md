@@ -45,7 +45,7 @@
 ## Cloud Computing
 
 * [FinOps](cloud-computing/finops/README.md)
-  * [FinOps: Turning cloud spending into competitive advantage](cloud-computing/finops/finops-turning-cloud-spending-into-competitive-advantage.md)
+  * [Turning cloud spending into competitive advantage](cloud-computing/finops/turning-cloud-spending-into-competitive-advantage.md)
 
 ## Learning Journey
 
