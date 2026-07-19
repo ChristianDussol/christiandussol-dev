@@ -64,9 +64,9 @@ Kyverno's Kubernetes-native YAML approach makes policy-as-code accessible where 
 
 _The human side of platform engineering. Structure and skill, which turn out to be the same problem._
 
-#### Team Topologies in the Cloud Era
+#### Team Topologies: The Blueprint for Cloud & AI Transformations
 
-Why the four team types and three interaction modes still hold up as the blueprint for cloud-native transformation, years after the book. Conway's Law does not care about your org chart.
+Why the four team types and three interaction modes still hold up as the blueprint, now for AI transformations as much as cloud ones. Conway's Law does not care about your org chart.
 
 → [Medium](https://medium.com/@christian.dussol/team-topologies-the-blueprint-for-cloud-ai-transformations-e255475d50a0?sharedUserId=christian.dussol)
 
@@ -77,4 +77,3 @@ Deliberate practice applied to a moving target. Why certifications are forcing f
 → [Medium](https://medium.com/@christian.dussol/how-scott-youngs-ultra-learning-method-has-changed-how-i-learned-kubernetes-d66e7d4ac075?sharedUserId=christian.dussol)
 
 ***
-
