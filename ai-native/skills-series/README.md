@@ -28,6 +28,6 @@ Part 5: Govern → Skills as a foundation for AI governance
 
 [**Part 5: Skills as a Foundation for AI Governance**](part-5-skills-as-a-foundation-for-ai-governance.md)**.** What I learned from building the series. Skills as one of the answers to the question every platform engineer is starting to ask: _how do we govern AI agents when they stop being demos and become infrastructure?_ The bridge to CNCF Arc 3 (KAgent, KServe, KGateway)
 
-All code is open source under the [https://github.com/christian-dussol-cloud-native/kyverno/tree/main/skills](https://github.com/christian-dussol-cloud-native/kyverno/tree/main/skills) repository, licensed CC BY-SA 4.0. The experiments are public and the things that didn't work are part of the record.
+All three Skills are open source in the [kyverno repository](https://github.com/christian-dussol-cloud-native/kyverno/tree/main/skills), licensed CC BY-SA 4.0. The experiments are public and the things that didn't work are part of the record.
 
 > _AI scales what you know. It doesn't replace what you learned._
