@@ -39,7 +39,7 @@ The study material I wrote for myself turned out to be useful to other people, w
 * [**Microsoft Certified: Azure Fundamentals** (AZ-900)](https://learn.microsoft.com/en-us/users/dussolchristian-8864/credentials/21a41ea8c0a5012a)
 * [**Kubernetes and Cloud Native Associate** (KCNA)](https://www.credly.com/badges/14ae0b36-233e-43ba-af7d-bf4eb2f08208)
 * [**Certified GitOps Associate** (CGOA)](https://www.credly.com/badges/359c4e8d-ca58-43d4-a1e1-82fea1de2233)
-* **Cloud-Native Security Associate** (CASA)
+* [**Cloud-Native API Security Analyst** (CASA)](https://www.credly.com/badges/55aab8d1-46b6-4b3d-a716-7c0405d710b4/public_url)
 * [**FinOps Certified Practitioner**](https://www.credly.com/badges/488211fe-1e5a-4645-b6a4-b5e4acd8af1d/public_url)
 
 #### Data, AI and security
@@ -50,7 +50,7 @@ The study material I wrote for myself turned out to be useful to other people, w
 
 #### Methodologies
 
-* **Certified SAFe 4 Agilist**
+* [**Certified SAFe 4 Agilist**](https://www.credly.com/badges/2c9c64f0-eb12-4aab-94e3-5f0f993c959c/linked_in_profile)
 
 #### In progress
 
