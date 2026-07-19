@@ -1,7 +1,7 @@
 ---
 description: >-
-  Cloud and AI certifications, the study guides I wrote while earning them, and
-  the method underneath. Certifications are forcing functions, not credentials.
+  Certifications are forcing functions, not credentials. The UltraLearning
+  method behind them, what they produced, and where the path goes next.
 ---
 
 # How I learn
