@@ -49,7 +49,7 @@
 
 ## Learning Journey
 
-* [Learning journey](learning-journey/learning-journey.md)
+* [How I learn](learning-journey/how-i-learn.md)
 * [Guides](learning-journey/guides/README.md)
   * [Azure Architecture Decision Guides](learning-journey/guides/azure-architecture-decision-guides.md)
   * [Kubernetes References](learning-journey/guides/kubernetes-references.md)
