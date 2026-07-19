@@ -7,7 +7,7 @@ description: >-
 
 # Christian Dussol
 
-## Cloud Native × AI-Native × Financial Services × Platform Engineering
+## Cloud Native × AI Native × Financial Services × Platform Engineering
 
 _Building cloud-native systems where infrastructure, governance, and AI compose into platforms and solutions._
 
