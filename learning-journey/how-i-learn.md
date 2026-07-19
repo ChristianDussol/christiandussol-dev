@@ -34,19 +34,19 @@ The study material I wrote for myself turned out to be useful to other people, w
 
 #### Cloud and platform
 
-* **Microsoft Certified: Azure Solutions Architect Expert** (AZ-305)
-* **Microsoft Certified: Azure Administrator Associate** (AZ-104)
-* **Microsoft Certified: Azure Fundamentals** (AZ-900)
-* **Kubernetes and Cloud Native Associate** (KCNA)
-* **Certified GitOps Associate** (CGOA)
+* [**Microsoft Certified: Azure Solutions Architect Expert** (AZ-305)](https://learn.microsoft.com/en-us/users/dussolchristian-8864/credentials/ed9aaab2d256b23a)
+* [**Microsoft Certified: Azure Administrator Associate** (AZ-104)](https://learn.microsoft.com/en-us/users/dussolchristian-8864/credentials/90f02071373cad0b)
+* [**Microsoft Certified: Azure Fundamentals** (AZ-900)](https://learn.microsoft.com/en-us/users/dussolchristian-8864/credentials/21a41ea8c0a5012a)
+* [**Kubernetes and Cloud Native Associate** (KCNA)](https://www.credly.com/badges/14ae0b36-233e-43ba-af7d-bf4eb2f08208)
+* [**Certified GitOps Associate** (CGOA)](https://www.credly.com/badges/359c4e8d-ca58-43d4-a1e1-82fea1de2233)
 * **Cloud-Native Security Associate** (CASA)
-* **FinOps Certified Practitioner**
+* [**FinOps Certified Practitioner**](https://www.credly.com/badges/488211fe-1e5a-4645-b6a4-b5e4acd8af1d/public_url)
 
 #### Data, AI and security
 
-* **Microsoft Certified: Azure AI Fundamentals** (AI-900)
-* **Microsoft Certified: Azure Data Fundamentals** (DP-900)
-* **Microsoft Certified: Azure Security Fundamentals** (SC-900)
+* [**Microsoft Certified: Azure AI Fundamentals** (AI-900)](https://learn.microsoft.com/en-us/users/dussolchristian-8864/credentials/a5a728d010aff056)
+* [**Microsoft Certified: Azure Data Fundamentals** (DP-900)](https://learn.microsoft.com/en-us/users/dussolchristian-8864/credentials/930b3f268e8dee25)
+* [**Microsoft Certified: Azure Security Fundamentals** (SC-900)](https://learn.microsoft.com/en-us/users/dussolchristian-8864/credentials/8daf14e81b0f076e)
 
 #### Methodologies
 
