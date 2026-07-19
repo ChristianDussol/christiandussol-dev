@@ -1,3 +1,9 @@
+---
+description: >-
+  The Collector architecture, auto-instrumentation in a mixed Java and Python
+  estate, and correlating traces with metrics and logs without vendor lock-in.
+---
+
 # Episode 5: OpenTelemetry
 
 ## **The Unified Observability Pipeline**

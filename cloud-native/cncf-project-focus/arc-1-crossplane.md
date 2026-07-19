@@ -1,3 +1,9 @@
+---
+description: >-
+  Crossplane as a universal control plane: the four core components, a Terraform
+  migration path, and why Compositions are the right platform abstraction.
+---
+
 # Episode 2: Crossplane
 
 ## **One Kubernetes API. Any Cloud Provider**

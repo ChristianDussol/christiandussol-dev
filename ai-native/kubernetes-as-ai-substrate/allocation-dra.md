@@ -1,7 +1,7 @@
 ---
 description: >-
-  ubernetes counted GPUs for a decade. DRA replaces the counter with a model, so
-  the cluster reasons about hardware instead of tallying it.
+  Kubernetes counted GPUs for a decade. DRA replaces the counter with a model,
+  so the cluster reasons about hardware instead of tallying it.
 ---
 
 # Allocation: DRA

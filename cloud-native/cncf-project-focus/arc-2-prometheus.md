@@ -1,3 +1,10 @@
+---
+description: >-
+  Prometheus as the metrics substrate rather than a monitoring tool. PromQL
+  patterns for cost attribution, kube-prometheus-stack, and Kyverno label
+  hygiene.
+---
+
 # Episode 4: Prometheus
 
 ## **Cloud-Native Metrics with FinOps-Grade Governance**

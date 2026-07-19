@@ -1,3 +1,9 @@
+---
+description: >-
+  Knative as a serverless substrate: scale-to-zero economics, the Serving and
+  Eventing split, and governing ephemeral workloads in a regulated environment.
+---
+
 # Episode 1: Knative
 
 ## Episode 1: Knative

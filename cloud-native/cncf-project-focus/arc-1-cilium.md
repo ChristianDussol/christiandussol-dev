@@ -1,4 +1,11 @@
-# Episode 3: Cillium
+---
+description: >-
+  eBPF rewrote the Kubernetes networking layer. Cilium as the reference
+  implementation: kube-proxy replacement, kernel-speed policy, and the iptables
+  confusion.
+---
+
+# Episode 3: Cilium
 
 ## **Kernel-Native Kubernetes Networking**
 
