@@ -8,7 +8,7 @@ description: >-
 
 ## Compose: a Skill can call another Skill
 
-The third part is the climax of the first half of the series. It introduces a second Skill — `kyverno-policy-auditor` — that runs an 8-dimension audit on existing policies. When the auditor detects a gap, it triggers the generator from Part 2 to produce the missing artifact.
+The third part is the climax of the first half of the series. It introduces a second Skill, `kyverno-policy-auditor` , that runs an 8-dimension audit on existing policies. When the auditor detects a gap, it triggers the generator from Part 2 to produce the missing artifact.
 
 This is the moment Skills stop being tools and become an ecosystem.
 

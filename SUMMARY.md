@@ -31,10 +31,10 @@
 * [From Prompts to Packages](ai-native/skills-series/README.md)
   * [Part 1: How Claude Code Skills work](ai-native/skills-series/part-1-how-claude-code-skills-work.md)
   * [Part 2: Building a real Skill: kyverno-policy-generator](ai-native/skills-series/part-2-building-a-real-skill-kyverno-policy-generator.md)
+  * [Bonus: 6 principles from Anthropic's official Skills guide](ai-native/skills-series/bonus-6-principles-from-anthropics-official-skills-guide.md)
   * [Part 3: When Skills talk to each other](ai-native/skills-series/part-3-when-skills-talk-to-each-other.md)
   * [Part 4: Connecting Skills to the real world via MCP](ai-native/skills-series/part-4-connecting-skills-to-the-real-world-via-mcp.md)
   * [Part 5: Skills as a foundation for AI governance](ai-native/skills-series/part-5-skills-as-a-foundation-for-ai-governance.md)
-  * [Bonus: 6 principles from Anthropic's official Skills guide](ai-native/skills-series/bonus-6-principles-from-anthropics-official-skills-guide.md)
 
 ## Cloud - AI - Security
 

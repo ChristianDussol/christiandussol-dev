@@ -35,7 +35,7 @@ You cannot optimize what you cannot see. From metrics collection to distributed 
 
 * Episode 4, [Prometheus](arc-2-prometheus.md): Cloud-native metrics with FinOps-grade governance
 * Episode 5, [OpenTelemetry](arc-2-opentelemetry.md): The unified observability pipeline
-* Episode 6, Istio: Ambient mode and zero-trust networking — _in progress_
+* Episode 6, Istio: Ambient mode and zero-trust networking, _in progress_
 
 ### Arc 3: AI-Native Platform
 
