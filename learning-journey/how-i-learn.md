@@ -38,6 +38,7 @@ The study material I wrote for myself turned out to be useful to other people, w
 * **Microsoft Certified: Azure Administrator Associate** (AZ-104)
 * **Microsoft Certified: Azure Fundamentals** (AZ-900)
 * **Kubernetes and Cloud Native Associate** (KCNA)
+* **Certified GitOps Associate** (CGOA)
 * **Cloud-Native Security Associate** (CASA)
 * **FinOps Certified Practitioner**
 
