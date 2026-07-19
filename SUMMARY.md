@@ -22,7 +22,7 @@
   * [Allocation: DRA](ai-native/kubernetes-as-ai-substrate/allocation-dra.md)
   * [Serving: llm-d](ai-native/kubernetes-as-ai-substrate/serving-llm-d.md)
   * [Routing: Gateway API Inference Extension](ai-native/kubernetes-as-ai-substrate/routing-gateway-api-inference-extension.md)
-  * [One Stack, Two foundations](ai-native/kubernetes-as-ai-substrate/one-stack-two-foundations.md)
+  * [One Stack, Two Foundations](ai-native/kubernetes-as-ai-substrate/one-stack-two-foundations.md)
   * [The Meter and the Machine](ai-native/kubernetes-as-ai-substrate/the-meter-and-the-machine.md)
   * [The Shape I See](ai-native/kubernetes-as-ai-substrate/the-shape-i-see.md)
 * [The AI Agent Mental Model](ai-native/the-ai-agent-mental-model.md)
