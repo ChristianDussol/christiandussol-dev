@@ -1,8 +1,8 @@
 ---
 description: >-
-  The Kubernetes Enterprise Learning Series and the references it produced. A
-  cheat sheet organized by role, and a resource management guide built from
-  production mistakes.
+  The Kubernetes Enterprise Learning Series and what it produced: a cheat sheet
+  organized by role, and a resource management guide built from production
+  mistakes.
 ---
 
 # Kubernetes References

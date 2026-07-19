@@ -1,8 +1,7 @@
 ---
 description: >-
-  Study material I wrote for myself and made public. Azure architecture decision
-  guides and Kubernetes references, built around trade-offs rather than feature
-  lists.
+  Study material I wrote for myself and made public. Azure decision guides and
+  Kubernetes references, built around trade-offs rather than feature lists.
 ---
 
 # Guides

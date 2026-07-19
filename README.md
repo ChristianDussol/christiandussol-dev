@@ -1,8 +1,8 @@
 ---
 description: >-
   Cloud-native and AI-native engineering for regulated financial services.
-  Indexing the work behind platforms for Treasury & Capital Markets: deep-dives
-  and governance patterns.
+  Deep-dives, governance patterns, and the builds behind them, indexed in one
+  place.
 ---
 
 # Christian Dussol

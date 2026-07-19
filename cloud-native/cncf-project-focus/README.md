@@ -1,8 +1,8 @@
 ---
 description: >-
-  Hands-on CNCF deep-dives organized by thematic arc — Infrastructure,
-  Observability, AI-Native Platform. Working labs, Kyverno governance patterns,
-  and lessons from a financial services practitioner.
+  Hands-on CNCF deep-dives organized by thematic arc: infrastructure,
+  observability, AI-native platform. Working labs and governance patterns from
+  production.
 ---
 
 # CNCF Project Focus

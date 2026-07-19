@@ -1,8 +1,8 @@
 ---
 description: >-
   Hyperscaler resources and cloud financial management. Azure, AWS, and the
-  FinOps practices that turn cloud spending into a strategic advantage rather
-  than a burden.
+  FinOps practices that turn cloud spending into an advantage rather than a
+  burden.
 ---
 
 # FinOps

@@ -1,8 +1,7 @@
 ---
 description: >-
   The code behind the writing. Three GitHub organizations covering cloud-native,
-  cloud computing, and AI-native infrastructure. Labs, policies, guides, and
-  builds.
+  cloud computing and AI-native infrastructure. Labs, policies, guides, builds.
 ---
 
 # GitHub Knowledge

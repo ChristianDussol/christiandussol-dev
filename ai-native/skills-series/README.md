@@ -1,8 +1,7 @@
 ---
 description: >-
-  A five-part exploration of Claude Code Skills: what they are, how they compose
-  and what they reveal about the architecture of AI agents. From understanding
-  to governance, with working Kyverno skills
+  What Claude Code Skills are, how they compose, and what they reveal about the
+  architecture of AI agents. Five parts, from understanding to governance.
 ---
 
 # From Prompts to Packages

@@ -1,8 +1,7 @@
 ---
 description: >-
-  Kubernetes operations from production experience: command workflows organized
-  by role, resource governance, and in-place pod resize with the guardrails it
-  needs.
+  Kubernetes operations from production: command workflows organized by role,
+  resource governance, and in-place pod resize with the guardrails it needs.
 ---
 
 # Kubernetes

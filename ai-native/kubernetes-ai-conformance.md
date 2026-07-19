@@ -1,8 +1,7 @@
 ---
 description: >-
-  The CNCF conformance program that ends the fragmentation of AI on Kubernetes.
-  DRA, gang scheduling, Gateway API inference, and what portability means for
-  sovereignty.
+  The CNCF program that ends the fragmentation of AI on Kubernetes. DRA, gang
+  scheduling, inference routing, and what portability means for sovereignty.
 ---
 
 # Kubernetes AI Conformance

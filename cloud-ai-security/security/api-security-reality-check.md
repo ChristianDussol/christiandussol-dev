@@ -1,8 +1,7 @@
 ---
 description: >-
-  What years of securing financial APIs taught me. The OWASP API Security Top 10
-  read through the 4C model, with Kyverno as the prevention layer rather than
-  the audit.
+  What years of securing financial APIs taught me. The OWASP API Top 10 read
+  through the 4C model, with Kyverno as prevention rather than audit.
 ---
 
 # API Security Reality Check
