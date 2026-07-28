@@ -56,6 +56,6 @@ The study material I wrote for myself turned out to be useful to other people, w
 
 * **Certified Kubernetes Application Developer** (CKAD)
 * **Kyverno Certified Associate** (KCA)
-* **FinOps Certified: AI Value**
+* **FinOps Certified: AI Value**, with [AI Value Trained: Level 1](https://www.credly.com/badges/3c881a1e-cf26-4284-8a2f-be5547d6f756) earned. Three levels lead to the certification exam.
 
 The certifications will date. The decision frameworks will not.
