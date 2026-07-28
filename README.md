@@ -40,7 +40,7 @@ Everything here starts with something that runs. The repository is the proof. Th
 * [**Cloud Computing**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/cloud-computing), the hyperscaler layer and the FinOps discipline that makes it sustainable
 * [**Security**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/cloud-ai-security), the two OWASP Top 10s, for APIs and for LLMs, read from a platform seat
 * [**Learning Journey**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/learning-journey), the method, the certifications, and the study material they produced
-* [**GitHub Knowledge**](github-knowledge.md), the code behind the writing, across three GitHub organizations
+* [**GitHub Knowledge**](knowledge-hub.md), the code behind the writing, across three GitHub organizations
 
 ***
 

@@ -4,9 +4,7 @@ description: >-
   cloud computing and AI-native infrastructure. Labs, policies, guides, builds.
 ---
 
-# GitHub Knowledge
-
-## Knowledge Hub
+# Knowledge Hub
 
 The code behind the writing.
 
@@ -16,7 +14,7 @@ The work is split across three organizations, mirroring the three domains this s
 
 ***
 
-### Cloud Native
+## Cloud Native
 
 CNCF projects, Kubernetes internals, policy-as-code, and security. The infrastructure foundation.
 
@@ -32,7 +30,7 @@ Also here:
 
 ***
 
-### Cloud Computing
+## Cloud Computing
 
 Hyperscaler architecture and cloud financial management. The layer underneath.
 
@@ -47,7 +45,7 @@ Also here:
 
 ***
 
-### AI Native
+## AI Native
 
 The AI substrate: accelerator allocation, distributed inference, routing and the agentic layer.
 
@@ -57,12 +55,13 @@ Also here:
 
 * [**dynamic-resource-allocation**](https://github.com/christian-dussol-ai-native/dynamic-resource-allocation), GPU scheduling with DRA, including the [Prioritized List tutorial](https://github.com/christian-dussol-ai-native/dynamic-resource-allocation/tree/main/dra-prioritized-list-tutorial): a hands-on lab for GPU tier fallback, runnable on Kind
 * [**gateway-api-inference-extension**](https://github.com/christian-dussol-ai-native/gateway-api-inference-extension), model-aware request routing for LLM inference (GAIE and agentgateway). Reproducible on Kind, no GPU required
+* [**model-context-protocol**](https://github.com/christian-dussol-ai-native/model-context-protocol), a governed MCP server exposing Kubernetes cost data from OpenCost to an agent, under least privilege, audit and a budget guard. Runs fully offline in synthetic mode, no cluster required
 
 → [Browse the organization](https://github.com/christian-dussol-ai-native)
 
 ***
 
-### Why three organizations
+## Why three organizations
 
 Not an accident, and not tidiness for its own sake. The three domains have different audiences, different lifecycles, and different reasons to exist.
 

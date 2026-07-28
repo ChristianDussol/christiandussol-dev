@@ -57,5 +57,5 @@
 ***
 
 * [Field Notes](field-notes.md)
-* [GitHub Knowledge](github-knowledge.md)
+* [Knowledge Hub](knowledge-hub.md)
 * [About](about.md)
