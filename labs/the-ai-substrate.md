@@ -18,7 +18,7 @@ It runs on Kind with the SIG Node example driver, so the GPUs are simulated. The
 
 → [dra-prioritized-list-tutorial](https://github.com/christian-dussol-ai-native/dynamic-resource-allocation/tree/main/dra-prioritized-list-tutorial)
 
-📄 The writing behind it: [Allocation: DRA](../ai-native/kubernetes-as-ai-substrate/allocation-dra.md)
+📄 The writing behind it: [Allocation: DRA](../ai-native/kubernetes-as-ai-substrate/from-counting-gpus-to-reasoning-about-them.md)
 
 ### What I learned
 
@@ -38,7 +38,7 @@ The InferenceObjective is the part worth dwelling on from a regulated seat. Prio
 
 → [gateway-api-inference-extension](https://github.com/christian-dussol-ai-native/gateway-api-inference-extension)
 
-📄 The writing behind it: [Routing: Gateway API Inference Extension](../ai-native/kubernetes-as-ai-substrate/routing-gateway-api-inference-extension.md)
+📄 The writing behind it: [Routing: Gateway API Inference Extension](../ai-native/kubernetes-as-ai-substrate/why-your-load-balancer-doesnt-understand-ai-traffic.md)
 
 ### What I learned
 
