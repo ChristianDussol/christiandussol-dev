@@ -8,7 +8,7 @@ description: >-
 
 The second arc, and the place where the argument of this whole section is clearest. Both labs make the same point from different ends: the quality of what you observe is decided at admission, before any collector runs.
 
-## Metrics: cost attribution with Prometheus and Kyverno
+### Metrics: cost attribution with Prometheus and Kyverno
 
 **What it shows.** The kube-prometheus-stack with PromQL query sets for cost attribution, waste detection, capacity forecasting and SLO tracking, plus two Grafana dashboards. A deliberately over-provisioned workload ships with it, so the waste queries have something real to find.
 
@@ -18,15 +18,19 @@ The argument sits in the loop. Kyverno enforces resource limits and cost labels 
 
 → [prometheus-first-sample](https://github.com/christian-dussol-cloud-native/prometheus/tree/main/prometheus-first-sample)
 
-📄 The writing behind it: [Episode 4: Prometheus](../cloud-native/cncf-project-focus/arc-2-prometheus.md)
+📄 The writing behind it: Episode 4: Prometheus
 
-### What I learned
+#### What I learned
+
+The PromQL queries turned out to be the durable artefact. Once a query expresses cost per team or waste per namespace correctly, it keeps working across clusters and across years, because the metric names are a stable contract. That is a rare property in this ecosystem, and it is why the query files outlived the dashboards I built on top of them.
+
+Once the labels are enforced, PromQL stops being a monitoring language and becomes a finance one. The same expression that shows CPU utilisation shows spend per cost centre, with no additional tooling. The FinOps capability was already in the cluster, waiting for the label hygiene to make it usable.
 
 Metrics from pods without limits are not merely incomplete, they are misleading. Utilisation measured against no ceiling is a number with no denominator, and a dashboard full of them looks informative while telling you nothing.
 
 Shipping a deliberately over-provisioned workload was the right call. A waste-detection query with nothing to detect teaches nobody anything.
 
-## Traces: a unified telemetry pipeline with OpenTelemetry
+### Traces: a unified telemetry pipeline with OpenTelemetry
 
 **What it shows.** An OTel Collector gateway, zero-code auto-instrumentation, and a three-service demo (Order, Payment, Inventory) whose calls you follow end to end in Jaeger. Traces, metrics and logs leave through one pipeline instead of three agents.
 
@@ -36,9 +40,13 @@ Two parts earn their keep. Head and tail sampling, presented as a cost decision 
 
 → [opentelemetry-first-sample](https://github.com/christian-dussol-cloud-native/opentelemetry/tree/main/opentelemetry-first-sample)
 
-📄 The writing behind it: [Episode 5: OpenTelemetry](../cloud-native/cncf-project-focus/arc-2-opentelemetry.md)
+📄 The writing behind it: Episode 5: OpenTelemetry
 
-### What I learned
+#### What I learned
+
+Zero-code instrumentation genuinely works, and that still surprises me. An annotation on a pod, no import, no library, no redeployment of a code change, and the traces appear. For an estate where touching legacy services is a change-request conversation, that is the difference between observability you plan for and observability you can actually get.
+
+The Collector as a single egress point is worth more than the vendor neutrality it is usually sold on. One place where telemetry leaves the cluster is one place to filter PII, one place to enforce retention, one place an auditor asks about. Three agents would have meant three of each.
 
 Sampling is a cost decision before it is a configuration option. Head versus tail is really a question about how much telemetry is worth paying to keep, and framing it as a config choice hides the decision from the people who should be making it.
 

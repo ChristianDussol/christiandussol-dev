@@ -8,7 +8,7 @@ description: >-
 
 The top floor, where the question stops being whether an agent can call a tool and becomes whether that call can be identified, scoped and logged.
 
-## Governance: a governed MCP server
+### Governance: a governed MCP server
 
 **What it shows.** Connecting an agent to sensitive data is easy. The interesting part is the boundary: who may the agent ask, what may it do, how many times, and where is the proof of what happened. This server exposes Kubernetes cost data from OpenCost to an agent under three constraints that live in code rather than in a prompt: read-only by construction, one audit line per call, and a budget guard.
 
@@ -18,15 +18,19 @@ Its most useful feature is a deliberate limitation. The budget guard counts in m
 
 → [model-context-protocol](https://github.com/christian-dussol-ai-native/model-context-protocol)
 
-📄 The writing behind it: [AAIF Project Focus](../ai-native/the-agentic-layer-project-by-project-with-a-working-build-at-each-step.md)
+📄 The writing behind it: AAIF Project Focus
 
-### What I learned
+#### What I learned
+
+The protocol carries less than I expected, and that turns out to be the good news. MCP standardises how a tool is described and called, and deliberately leaves policy, identity and audit to the surrounding system. That is what makes it composable: the governance I needed was mine to write, not something I had to fight the protocol to add.
+
+The synthetic mode changed who can run this. A governed server that needs a live cluster and a cost backend is a demo three people will try. One that runs offline with fictional data is something a reader can have working in five minutes, and the governance is identical either way.
 
 Read-only by construction beats read-only by instruction. A boundary that lives in the code survives a prompt that does not, and the difference matters most on the day someone finds a way to phrase the request differently.
 
 Naming the limitation was more useful than hiding it. The budget guard counts in memory, so it cannot see other instances of itself. Publishing that is what tells a reader exactly where this server ends and their platform has to begin.
 
-## Policy: three composable Skills for Kyverno governance
+### Policy: three composable Skills for Kyverno governance
 
 **What it shows.** A generator that turns natural language into a policy, its Chainsaw tests and its pass and block fixtures, always defaulting to Audit mode. An auditor that scores a policy across eight dimensions and calls the generator when tests are missing. And a FinOps Skill that queries live OpenCost data through MCP, generates tiered limits from actual usage, then invokes the other two to test and validate its own output.
 
@@ -40,7 +44,11 @@ A Skill does not make the model smarter. It makes it disciplined.
 
 📄 The writing behind it: [From Prompts to Packages](../ai-native/skills-series/)
 
-### What I learned
+#### What I learned
+
+Composition works, and it is the part I would not have predicted. The FinOps Skill pulls real usage, generates limits, then calls the generator to produce tests and the auditor to score its own output. Three Skills validating each other with nobody orchestrating them by hand. That is closer to a system than to a set of prompts.
+
+Encoding expertise turned out to be more durable than I expected. The generator is not a better prompt, it is a workflow with validation passes, official policy references and mandatory tests. Once written, it produces the same quality on a Tuesday afternoon as it did the day I built it, which is not true of me.
 
 The same prompt across several tools produced YAML that looked correct and carried seven production issues. Enforce by default, so one apply can cause an outage. Matching Deployment rather than Pod, so autogen never covers StatefulSet, DaemonSet, Job or CronJob. `"*"` instead of `"?*"`, which allows the empty value the rule exists to forbid. And no test at all.
 
