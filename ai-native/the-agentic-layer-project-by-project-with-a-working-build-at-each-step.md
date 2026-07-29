@@ -4,9 +4,7 @@ description: >-
   each step. MCP, AGENTS.md, goose, and why the standards came first.
 ---
 
-# AAIF Project Focus
-
-## The agentic layer, project by project, with a working build at each step
+# The agentic layer, project by project, with a working build at each step
 
 Deploying an agent today is still mostly bespoke. Each framework speaks its own protocol to tools and data. Each carries its own conventions for how the agent should behave, where it reads its instructions, what it is allowed to touch. Move from one repo to the next and the wiring changes underneath you.
 
@@ -16,7 +14,7 @@ That gap is what an open foundation exists to close before fragmentation sets in
 
 ***
 
-### Why the standards came first
+## Why the standards came first
 
 **The arc-opener.** Before the deep dives, how the problem looks from a regulated financial-services seat, and why a foundation forming around it caught my attention.
 
@@ -38,7 +36,7 @@ Then a fourth arrived in mid-2026: **agentgateway**, contributed by Solo.io. Not
 
 ***
 
-### Why a regulated seat watches this closely
+## Why a regulated seat watches this closely
 
 Deploying an agent is the easy part. Operating it under constraint is the work. Which identity does it act under. What is it allowed to touch. How is every action logged so an auditor can trace it months later.
 
@@ -48,21 +46,23 @@ Concretely: an agent permitted to read positions but never to place an order. An
 
 ***
 
-### The series
+## The series
 
 Project by project, with a working build at each step rather than a description.
 
-#### Episode 1: MCP
+### Episode 1: MCP
 
 Wiring an agent to a system you cannot afford to get wrong. The connection layer, made concrete.
 
-#### Episode 2: AGENTS.md
+### Episode 2: AGENTS.md
 
 Making agent behavior predictable and reviewable.
 
-#### Episode 3: goose
+### Episode 3: goose
 
 Running a local-first agent against your own tools and models. Where the three building blocks converge.
+
+The governed MCP server behind Episode 1 is runnable today, offline and without a cluster: see [The agentic layer](../labs/the-agentic-layer.md) in Labs.
 
 ***
 

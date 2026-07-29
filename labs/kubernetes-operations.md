@@ -20,7 +20,7 @@ _Last validated against Kubernetes 1.33. The feature has evolved since; treat th
 
 → [k8s-pod-resize-demo](https://github.com/christian-dussol-cloud-native/kubernetes/tree/main/demo-features/1.33/k8s-pod-resize-demo)
 
-📄 The writing behind it: [In-Place Pod Resize](../cloud-native/kubernetes/in-place-pod-resize.md)
+📄 The writing behind it: [In-Place Pod Resize](../cloud-native/kubernetes/vertical-scaling-without-the-restart..md)
 
 ### What I learned
 

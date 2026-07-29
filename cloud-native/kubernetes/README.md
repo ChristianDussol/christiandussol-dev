@@ -20,6 +20,6 @@ Organizing kubectl by role rather than alphabetically. Developer, administrator,
 
 Pod resources, LimitRange, ResourceQuota, and Kyverno. Four layers that decide whether your pod gets scheduled, throttled, or killed. Most of the confusion around _"exceeded quota"_ errors comes from not knowing which layer rejected you.
 
-#### [In-Place Pod Resize](in-place-pod-resize.md)
+#### [In-Place Pod Resize](vertical-scaling-without-the-restart..md)
 
 Changing CPU and memory on a running container without a restart. A genuinely useful capability, and one that needs governance before it goes anywhere near production.
