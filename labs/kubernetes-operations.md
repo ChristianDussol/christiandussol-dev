@@ -21,3 +21,9 @@ _Last validated against Kubernetes 1.33. The feature has evolved since; treat th
 → [k8s-pod-resize-demo](https://github.com/christian-dussol-cloud-native/kubernetes/tree/main/demo-features/1.33/k8s-pod-resize-demo)
 
 📄 The writing behind it: [In-Place Pod Resize](../cloud-native/kubernetes/in-place-pod-resize.md)
+
+### What I learned
+
+Resize is a subresource, which means permission to resize is permission to consume. RBAC on `pods/resize` deserves as much attention as the LimitRange that caps the value, and it is the control most likely to be forgotten because the feature looks like a convenience rather than a privilege.
+
+Deploying the guardrails before the demo was not presentation order. It was the only safe order, and running it the other way round once was enough to make that obvious.

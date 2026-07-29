@@ -20,6 +20,12 @@ Its most useful feature is a deliberate limitation. The budget guard counts in m
 
 📄 The writing behind it: [AAIF Project Focus](../ai-native/aaif-project-focus.md)
 
+### What I learned
+
+Read-only by construction beats read-only by instruction. A boundary that lives in the code survives a prompt that does not, and the difference matters most on the day someone finds a way to phrase the request differently.
+
+Naming the limitation was more useful than hiding it. The budget guard counts in memory, so it cannot see other instances of itself. Publishing that is what tells a reader exactly where this server ends and their platform has to begin.
+
 ## Policy: three composable Skills for Kyverno governance
 
 **What it shows.** A generator that turns natural language into a policy, its Chainsaw tests and its pass and block fixtures, always defaulting to Audit mode. An auditor that scores a policy across eight dimensions and calls the generator when tests are missing. And a FinOps Skill that queries live OpenCost data through MCP, generates tiered limits from actual usage, then invokes the other two to test and validate its own output.
@@ -33,3 +39,9 @@ A Skill does not make the model smarter. It makes it disciplined.
 → [kyverno/skills](https://github.com/christian-dussol-cloud-native/kyverno/tree/main/skills)
 
 📄 The writing behind it: [From Prompts to Packages](../ai-native/skills-series/)
+
+### What I learned
+
+The same prompt across several tools produced YAML that looked correct and carried seven production issues. Enforce by default, so one apply can cause an outage. Matching Deployment rather than Pod, so autogen never covers StatefulSet, DaemonSet, Job or CronJob. `"*"` instead of `"?*"`, which allows the empty value the rule exists to forbid. And no test at all.
+
+Every guard rail in these Skills exists because I hit the wall it prevents. That is the difference between encoding expertise and prompting for it: the discipline comes from what went wrong before, and a model cannot supply what it has not lived.

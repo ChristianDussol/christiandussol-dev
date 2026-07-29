@@ -20,6 +20,12 @@ The argument sits in the loop. Kyverno enforces resource limits and cost labels 
 
 📄 The writing behind it: [Episode 4: Prometheus](../cloud-native/cncf-project-focus/arc-2-prometheus.md)
 
+### What I learned
+
+Metrics from pods without limits are not merely incomplete, they are misleading. Utilisation measured against no ceiling is a number with no denominator, and a dashboard full of them looks informative while telling you nothing.
+
+Shipping a deliberately over-provisioned workload was the right call. A waste-detection query with nothing to detect teaches nobody anything.
+
 ## Traces: a unified telemetry pipeline with OpenTelemetry
 
 **What it shows.** An OTel Collector gateway, zero-code auto-instrumentation, and a three-service demo (Order, Payment, Inventory) whose calls you follow end to end in Jaeger. Traces, metrics and logs leave through one pipeline instead of three agents.
@@ -31,3 +37,9 @@ Two parts earn their keep. Head and tail sampling, presented as a cost decision 
 → [opentelemetry-first-sample](https://github.com/christian-dussol-cloud-native/opentelemetry/tree/main/opentelemetry-first-sample)
 
 📄 The writing behind it: [Episode 5: OpenTelemetry](../cloud-native/cncf-project-focus/arc-2-opentelemetry.md)
+
+### What I learned
+
+Sampling is a cost decision before it is a configuration option. Head versus tail is really a question about how much telemetry is worth paying to keep, and framing it as a config choice hides the decision from the people who should be making it.
+
+An uninstrumented service does not fail loudly, it fails invisibly. That asymmetry is why the annotation belongs at admission rather than in a team's checklist: nobody notices the traces that were never emitted.
