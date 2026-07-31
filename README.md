@@ -25,7 +25,7 @@ Everything here starts with something that runs. The repository is the proof. Th
 
 [**Kubernetes as AI Substrate**](ai-native/kubernetes-as-ai-substrate/) Four floors, one stack. How Kubernetes is reshaping itself, from the hardware up, to become the ground the AI stack runs on. Allocation, serving, routing, governance, and the token that prices all of it.
 
-[**AAIF Project Focus**](ai-native/the-agentic-layer-project-by-project-with-a-working-build-at-each-step.md) The agentic layer, project by project, with a working build at each step. MCP, AGENTS.md, goose.
+[**AAIF Project Focus**](ai-native/aaif-project-focus.md) The agentic layer, project by project, with a working build at each step. MCP, AGENTS.md, goose.
 
 [**From Prompts to Packages**](ai-native/skills-series/) What Claude Code Skills are, and why they are a governance primitive rather than a productivity trick.
 

@@ -27,7 +27,7 @@
   * [The Shape I See](ai-native/kubernetes-as-ai-substrate/the-shape-i-see.md)
 * [The AI Agent Mental Model](ai-native/the-ai-agent-mental-model.md)
 * [The Agentic AI Foundation](ai-native/the-agentic-ai-foundation.md)
-* [The agentic layer, project by project, with a working build at each step](ai-native/the-agentic-layer-project-by-project-with-a-working-build-at-each-step.md)
+* [AAIF Project Focus](ai-native/aaif-project-focus.md)
 * [From Prompts to Packages](ai-native/skills-series/README.md)
   * [Part 1: How Claude Code Skills work](ai-native/skills-series/part-1-how-claude-code-skills-work.md)
   * [Part 2: Building a real Skill: kyverno-policy-generator](ai-native/skills-series/part-2-building-a-real-skill-kyverno-policy-generator.md)
