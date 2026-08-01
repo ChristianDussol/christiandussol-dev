@@ -6,7 +6,9 @@ description: >-
 
 # How I learn
 
-Certifications are forcing functions, not credentials. Nobody has ever hired me because of a badge. But every certification forced me to sit with a domain long enough to stop guessing, and what fell out of that process is on this site.
+Certifications build foundations. They map a domain systematically, including the parts my own curiosity would have skipped, and they force the vocabulary to become precise. That is worth a great deal, and it is also where they stop.
+
+Mastery comes from running the thing in production and watching it fail in ways no exam describes. Neither half works alone. The certification gives the map, the practice gives the terrain.
 
 ### The method
 
