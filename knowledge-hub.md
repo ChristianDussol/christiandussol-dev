@@ -10,6 +10,8 @@ The code behind the writing.
 
 Every series here starts with something that runs: an applied policy, a working lab, a build that broke and then did not. The article is the explanation. The repository is the proof. This page is the index to all of it.
 
+This page lists the repositories. If you want to know what each build makes observable and what it takes to run it, [Labs](labs/) covers that, lab by lab.
+
 The work is split across three organizations, mirroring the three domains this site covers.
 
 ***
@@ -24,7 +26,7 @@ Also here:
 
 * [**kubernetes**](https://github.com/christian-dussol-cloud-native/kubernetes), the guides, carousels, and feature demos (in-place pod resize, resource management, command reference)
 * [**cloud-security**](https://github.com/christian-dussol-cloud-native/cloud-security), the OWASP API Security and LLM Top 10 material
-* CNCF Project Focus labs, one per episode
+* One CNCF Project Focus lab per episode: [knative](https://github.com/christian-dussol-cloud-native/knative), [crossplane](https://github.com/christian-dussol-cloud-native/crossplane), [cilium](https://github.com/christian-dussol-cloud-native/cilium), [prometheus](https://github.com/christian-dussol-cloud-native/prometheus) and [opentelemetry](https://github.com/christian-dussol-cloud-native/opentelemetry)
 
 → [Browse the organization](https://github.com/christian-dussol-cloud-native)
 
