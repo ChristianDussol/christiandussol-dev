@@ -8,7 +8,7 @@ description: >-
 
 The top floor, where the question stops being whether an agent can call a tool and becomes whether that call can be identified, scoped and logged.
 
-### Governance: a governed MCP server
+## Governance: a governed MCP server
 
 **What it shows.** Connecting an agent to sensitive data is easy. The interesting part is the boundary: who may the agent ask, what may it do, how many times, and where is the proof of what happened. This server exposes Kubernetes cost data from OpenCost to an agent under three constraints that live in code rather than in a prompt: read-only by construction, one audit line per call, and a budget guard.
 
@@ -22,7 +22,7 @@ Its most useful feature is a deliberate limitation. The budget guard counts in m
 
 📄 The writing behind it: AAIF Project Focus
 
-#### What I learned
+### What I learned
 
 The protocol carries less than I expected, and that turns out to be the good news. MCP standardises how a tool is described and called, and deliberately leaves policy, identity and audit to the surrounding system. That is what makes it composable: the governance I needed was mine to write, not something I had to fight the protocol to add.
 
@@ -34,7 +34,7 @@ Keeping governance behind a swappable interface mattered more than the implement
 
 And the limitation taught me the most. The budget counter is process-local, so behind a load balancer with several instances the effective limit becomes a multiple of the configured one. Before the July 2026 stateless revision, a remote server could lean on sticky sessions, so a client kept returning to the same instance and the per-process counter held together by accident. With any request now free to reach any instance, that counter stops being a footnote and becomes a visible gap. **The revision did not create the limitation and does not fix it. It removed what used to mask it.**
 
-### Policy: three composable Skills for Kyverno governance
+## Policy: three composable Skills for Kyverno governance
 
 **What it shows.** A generator that turns natural language into a policy, its Chainsaw tests and its pass and block fixtures, always defaulting to Audit mode. An auditor that scores a policy across eight dimensions and calls the generator when tests are missing. And a FinOps Skill that queries live OpenCost data through MCP, generates tiered limits from actual usage, then invokes the other two to test and validate its own output.
 
@@ -48,7 +48,7 @@ A Skill does not make the model smarter. It makes it disciplined.
 
 📄 The writing behind it: [From Prompts to Packages](../ai-native/skills-series/)
 
-#### What I learned
+### What I learned
 
 Composition works, and it is the part I would not have predicted. The FinOps Skill pulls real usage, generates limits, then calls the generator to produce tests and the auditor to score its own output. Three Skills validating each other with nobody orchestrating them by hand. That is closer to a system than to a set of prompts.
 
