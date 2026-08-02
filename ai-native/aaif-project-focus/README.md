@@ -64,7 +64,7 @@ Making agent behavior predictable and reviewable.
 
 Running a local-first agent against your own tools and models. Where the three building blocks converge.
 
-The governed MCP server behind Episode 1 is runnable today, offline and without a cluster: see [The agentic layer](../labs/the-agentic-layer.md) in Labs.
+The governed MCP server behind Episode 1 is runnable today, offline and without a cluster: see [The agentic layer](../../labs/the-agentic-layer.md) in Labs.
 
 ***
 
