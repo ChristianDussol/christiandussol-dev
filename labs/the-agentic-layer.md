@@ -12,7 +12,9 @@ The top floor, where the question stops being whether an agent can call a tool a
 
 **What it shows.** Connecting an agent to sensitive data is easy. The interesting part is the boundary: who may the agent ask, what may it do, how many times, and where is the proof of what happened. This server exposes Kubernetes cost data from OpenCost to an agent under three constraints that live in code rather than in a prompt: read-only by construction, one audit line per call, and a budget guard.
 
-Its most useful feature is a deliberate limitation. The budget guard counts in memory, so it cannot see other instances. That is not a bug: it marks exactly where the server stops and the platform begins.
+Least privilege appears twice, in two different places, and that is deliberate. It is **declared** in the protocol metadata, through MCP annotations a host reads before ever calling the tool, and **enforced** in the policy module at call time. Without the annotations, MCP's defaults advertise the opposite. And the architecture itself is checked rather than described: one of the thirty tests fails if the business logic ever imports the protocol or the governance layer.
+
+Its most useful feature is a deliberate limitation. The budget guard counts in memory, so it cannot see other instances. That is not a bug, and the section below explains why it became more interesting than the parts that work.
 
 **What it needs.** Python. Runs fully offline in synthetic mode, with fictional data. No cluster required. Point it at a real OpenCost when you have one.
 
@@ -28,7 +30,9 @@ The synthetic mode changed who can run this. A governed server that needs a live
 
 Read-only by construction beats read-only by instruction. A boundary that lives in the code survives a prompt that does not, and the difference matters most on the day someone finds a way to phrase the request differently.
 
-Naming the limitation was more useful than hiding it. The budget guard counts in memory, so it cannot see other instances of itself. Publishing that is what tells a reader exactly where this server ends and their platform has to begin.
+Keeping governance behind a swappable interface mattered more than the implementation behind it. Today the rules are Python. Tomorrow a Kyverno or OPA engine could replace them without touching the service or the protocol layer. The policy engine is an implementation detail; the fact that a decision happens before the data is read is not.
+
+And the limitation taught me the most. The budget counter is process-local, so behind a load balancer with several instances the effective limit becomes a multiple of the configured one. Before the July 2026 stateless revision, a remote server could lean on sticky sessions, so a client kept returning to the same instance and the per-process counter held together by accident. With any request now free to reach any instance, that counter stops being a footnote and becomes a visible gap. **The revision did not create the limitation and does not fix it. It removed what used to mask it.**
 
 ### Policy: three composable Skills for Kyverno governance
 
