@@ -34,6 +34,8 @@ Keeping governance behind a swappable interface mattered more than the implement
 
 And the limitation taught me the most. The budget counter is process-local, so behind a load balancer with several instances the effective limit becomes a multiple of the configured one. Before the July 2026 stateless revision, a remote server could lean on sticky sessions, so a client kept returning to the same instance and the per-process counter held together by accident. With any request now free to reach any instance, that counter stops being a footnote and becomes a visible gap. **The revision did not create the limitation and does not fix it. It removed what used to mask it.**
 
+***
+
 ## Policy: three composable Skills for Kyverno governance
 
 **What it shows.** A generator that turns natural language into a policy, its Chainsaw tests and its pass and block fixtures, always defaulting to Audit mode. An auditor that scores a policy across eight dimensions and calls the generator when tests are missing. And a FinOps Skill that queries live OpenCost data through MCP, generates tiered limits from actual usage, then invokes the other two to test and validate its own output.
