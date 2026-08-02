@@ -10,10 +10,10 @@
   * [Vertical scaling without the restart.](cloud-native/kubernetes/vertical-scaling-without-the-restart..md)
 * [CNCF Project Focus](cloud-native/cncf-project-focus/README.md)
   * [Episode 1: Knative](cloud-native/cncf-project-focus/arc-1-knative.md)
-  * [One Kubernetes API. Any Cloud Provider](cloud-native/cncf-project-focus/arc-1-crossplane.md)
-  * [Kernel-Native Kubernetes Networking](cloud-native/cncf-project-focus/arc-1-cilium.md)
-  * [Cloud-Native Metrics with FinOps-Grade Governance](cloud-native/cncf-project-focus/arc-2-prometheus.md)
-  * [The Unified Observability Pipeline](cloud-native/cncf-project-focus/arc-2-opentelemetry.md)
+  * [Episode 2: Crossplane](cloud-native/cncf-project-focus/arc-1-crossplane.md)
+  * [Episode 3: Cilium](cloud-native/cncf-project-focus/arc-1-cilium.md)
+  * [Episode 4: Prometheus](cloud-native/cncf-project-focus/arc-2-prometheus.md)
+  * [Episode 5: OpenTelemetry](cloud-native/cncf-project-focus/arc-2-opentelemetry.md)
 
 ## AI Native
 
