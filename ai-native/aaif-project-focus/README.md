@@ -52,7 +52,7 @@ Concretely: an agent permitted to read positions but never to place an order. An
 
 Project by project, with a working build at each step rather than a description.
 
-#### Episode 1: MCP
+#### Episode 1: [MCP](./#episode-1-mcp)
 
 Wiring an agent to a system you cannot afford to get wrong. The connection layer, made concrete.
 
