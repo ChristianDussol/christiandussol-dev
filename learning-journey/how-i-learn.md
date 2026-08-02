@@ -1,7 +1,7 @@
 ---
 description: >-
-  Certifications are forcing functions, not credentials. The UltraLearning
-  method behind them, what they produced, and where the path goes next.
+  Certifications build foundations, practice builds mastery. The UltraLearning
+  method behind them, and what it produced.
 ---
 
 # How I learn
