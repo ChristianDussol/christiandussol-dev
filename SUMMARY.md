@@ -58,10 +58,10 @@
 
 * [Field Notes](field-notes.md)
 * [Knowledge Hub](knowledge-hub.md)
-* [About](about.md)
 * [Labs](labs/README.md)
   * [Infrastructure foundations](labs/infrastructure-foundations.md)
   * [Observability](labs/observability.md)
   * [The AI substrate](labs/the-ai-substrate.md)
   * [The agentic layer](labs/the-agentic-layer.md)
   * [Kubernetes operations](labs/kubernetes-operations.md)
+* [About](about.md)
