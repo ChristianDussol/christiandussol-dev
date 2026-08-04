@@ -6,25 +6,25 @@ description: >-
 
 # Episode 1: MCP
 
-## **Connecting an agent is the easy part**
+### **Connecting an agent is the easy part**
 
 Connecting an agent to your cloud costs is a few lines of code. Deciding what it may ask, how often, and whether an auditor can trace it six months later is the real work.
 
 This episode is in two parts: what MCP is and how it works, then what building a governed one on top of real cost data taught me about where the protocol stops.
 
-<figure><img src="../../.gitbook/assets/1 (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://3864580007-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F782Y46kG3IDKMjaaCmCh%2Fuploads%2Fzgyjo6HxQU7JaPBbRGxE%2F1.png?alt=media&#x26;token=2940f1f3-b8d4-4d01-b138-9029ba270d5a" alt=""><figcaption></figcaption></figure>
 
-## 📎 Visual companion
+### 📎 Visual companion
 
 [AAIF Project Focus: MCP carousel (PDF)](https://github.com/christian-dussol-ai-native/model-context-protocol/blob/main/carousel/aaif-project-focus-mcp.pdf)
 
-## Part one: what MCP is
+### Part one: what MCP is
 
 For a reader who has not built one. The M×N problem it solves, three agents and three tools being nine bespoke integrations rather than three. The three primitives, tools, resources and prompts. Discovery through `tools/list` and `tools/call`, defined by the protocol rather than left to each integration.
 
 Then the line the rest of the piece rests on: **the protocol carries the call, not the decision.** Over HTTP it can authenticate who connected, as an OAuth 2.1 resource server. It never sees the reasoning that produced the call. MCP standardises the connection, and leaves four things it does not settle on its own: identity, authorization, audit, cost.
 
-## Part two: what building a governed one taught me
+### Part two: what building a governed one taught me
 
 A server exposing Kubernetes cluster costs from OpenCost to an agent, under least privilege, audit and a call budget. It runs offline on synthetic data and against a real OpenCost install on a local cluster.
 
@@ -35,6 +35,7 @@ A server exposing Kubernetes cluster costs from OpenCost to an agent, under leas
 
 ### Read the field note
 
+* **Medium article**: [Connecting an agent is the easy part: What building a governed MCP server taught me](https://medium.com/@christian.dussol/connecting-an-agent-is-the-easy-part-what-building-a-governed-mcp-server-taught-me-d333f1e82365)
 * **LinkedIn Pulse**: [Connecting an agent is the easy part: What building a governed MCP server taught me](https://www.linkedin.com/pulse/connecting-agent-easy-part-what-building-governed-mcp-dussol-xnwse/)
 * **GitHub**: [model-context-protocol](https://github.com/christian-dussol-ai-native/model-context-protocol)
 * **Runnable lab**: [The agentic layer](../../labs/the-agentic-layer.md)
