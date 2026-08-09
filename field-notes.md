@@ -24,6 +24,24 @@ The pattern underneath: conformance is becoming a procurement filter. When an en
 
 ***
 
+## Conference highlights
+
+_An occasional format. One talk that touched something I was already working on, and what it left me thinking about._
+
+#### Kubernetes and the Missing Half of Energy-Aware Scheduling
+
+**KubeCon Japan 2026.** Most sustainability talks open with a graph of emissions. Faseela K (Ericsson) and Sunyanan Choochotkaew (IBM Research) opened with an investor, quoting the CNCF's Jonathan Bryce on energy efficiency becoming a signal the market reads. What follows is an engineering problem with a deadline set by someone other than engineers.
+
+The demo carries the argument. Four nodes named for their power profile, inference pods landing mostly on the hungry ones because nothing in the scheduling decision knows about power. Then the ResourceSlice, where a vendor publishes capacity in memory and CPU and nothing at all about energy. Then Kepler, reporting GPU joules for one vendor and silence for another, because it depends on vendor-specific APIs. Three things, one conclusion: **the scheduler already knows how to ask, it is still waiting for the vocabulary.**
+
+Their proposal is that vendors describe power characteristics in the ResourceSlice, which makes DRA less an allocation API than Kubernetes' contract with hardware vendors. The control plane stays generic, the vendor publishes what only it can know, and the scheduler queries rather than infers.
+
+The distinction that matters from a regulated seat is the one they drew between declared and measured. For scheduling, the vendor's declared figure is enough. For reporting it is not: TDP is a cooling design number, not a consumption reading, and multiplying it by hours produces something no auditor will accept. That gap will be somebody's problem, and it will not be the vendor's.
+
+→ [Medium](https://medium.com/@christian.dussol/kubecon-highlight-kubernetes-and-the-missing-half-of-energy-aware-scheduling-2b6feb01c209) · [LinkedIn Pulse](https://www.linkedin.com/pulse/kubecon-highlight-kubernetes-missing-half-scheduling-christian-dussol-s4m3e/) · [Session recording](https://youtu.be/m28qOWSEMMc)
+
+***
+
 ## Where the industry is heading
 
 _Two pieces written after KubeCon Amsterdam 2026, when several things I believed turned out to be wrong._
