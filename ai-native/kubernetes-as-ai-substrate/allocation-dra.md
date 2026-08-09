@@ -4,9 +4,11 @@ description: >-
   so the cluster reasons about hardware instead of tallying it.
 ---
 
-# From Counting GPUs to Reasoning About Them
+# Allocation: DRA
 
 <figure><img src="https://3864580007-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F782Y46kG3IDKMjaaCmCh%2Fuploads%2FetS4Tg8DoUdV1Ug9wgnL%2F1.png?alt=media&#x26;token=deb6b09c-90cb-4cd7-b585-4596118bdc9c" alt="" width="563"><figcaption></figcaption></figure>
+
+**From counting GPUs to reasoning about them.**
 
 ### The allocation floor: getting the right hardware to the right workload.
 
@@ -29,7 +31,7 @@ This is the first floor of the substrate, and the piece where the whole series b
 
 * **Medium article**: [From Counting GPUs to Reasoning About Them: How Kubernetes DRA Powers AI-Native Infrastructure](https://medium.com/@christian.dussol/from-counting-gpus-to-reasoning-about-them-how-kubernetes-dra-powers-ai-native-infrastructure-369cc75a667e)
 * **GitHub**: [dynamic-resource-allocation](https://github.com/christian-dussol-ai-native/dynamic-resource-allocation)
-* **Runnable lab**: Walking the Prioritized List cascade
+* **Runnable lab**: [Walking the Prioritized List cascade](../../labs/the-ai-substrate.md)
 
 ### Where the same mechanism went next
 

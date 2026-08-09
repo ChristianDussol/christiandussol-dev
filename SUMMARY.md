@@ -19,9 +19,9 @@
 
 * [Kubernetes AI Conformance](ai-native/kubernetes-ai-conformance.md)
 * [Kubernetes as AI Substrate](ai-native/kubernetes-as-ai-substrate/README.md)
-  * [From Counting GPUs to Reasoning About Them](ai-native/kubernetes-as-ai-substrate/from-counting-gpus-to-reasoning-about-them.md)
+  * [Allocation: DRA](ai-native/kubernetes-as-ai-substrate/allocation-dra.md)
   * [Serving: llm-d](ai-native/kubernetes-as-ai-substrate/serving-llm-d.md)
-  * [Why Your Load Balancer Doesn't Understand AI Traffic](ai-native/kubernetes-as-ai-substrate/why-your-load-balancer-doesnt-understand-ai-traffic.md)
+  * [Routing: Gateway API Inference Extension](ai-native/kubernetes-as-ai-substrate/routing-gateway-api-inference-extension.md)
   * [One Stack, Two Foundations](ai-native/kubernetes-as-ai-substrate/one-stack-two-foundations.md)
   * [The Meter and the Machine](ai-native/kubernetes-as-ai-substrate/the-meter-and-the-machine.md)
   * [The Shape I See](ai-native/kubernetes-as-ai-substrate/the-shape-i-see.md)

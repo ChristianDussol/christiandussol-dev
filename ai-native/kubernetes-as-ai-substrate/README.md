@@ -20,7 +20,7 @@ The series is partial by design. The building is still going up.
 
 ### The series, bottom to top
 
-#### 1. [Allocation: Dynamic Resource Allocation](from-counting-gpus-to-reasoning-about-them.md)
+#### 1. [Allocation: Dynamic Resource Allocation](allocation-dra.md)
 
 For a decade Kubernetes counted accelerators. Counting cannot express preference, tier, or topology. DRA replaces the counter with a model.
 
@@ -28,7 +28,7 @@ For a decade Kubernetes counted accelerators. Counting cannot express preference
 
 A GPU is not a served model. Prefill and decode share almost nothing, and running them on the same GPU wastes both.
 
-#### 3. [Routing: the Gateway API Inference Extension](why-your-load-balancer-doesnt-understand-ai-traffic.md)
+#### 3. [Routing: the Gateway API Inference Extension](routing-gateway-api-inference-extension.md)
 
 Once a model is served across many pods, a request has to reach the right one. The instinct is a load balancer. For inference, that instinct is wrong.
 
