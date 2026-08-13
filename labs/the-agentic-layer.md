@@ -20,7 +20,7 @@ Its most useful feature is a deliberate limitation. The budget guard counts in m
 
 → [model-context-protocol](https://github.com/christian-dussol-ai-native/model-context-protocol)
 
-📄 The writing behind it: AAIF Project Focus
+📄 The writing behind it: [Episode 1: MCP](../ai-native/aaif-project-focus/episode-1-mcp.md), part of [AAIF Project Focus](../ai-native/aaif-project-focus/)
 
 ### What I learned
 
