@@ -35,6 +35,8 @@ A server exposing Kubernetes cluster costs from OpenCost to an agent, under leas
 
 → **Read it**: [Medium](https://medium.com/@christian.dussol/connecting-an-agent-is-the-easy-part-what-building-a-governed-mcp-server-taught-me-d333f1e82365) · [LinkedIn Pulse](https://www.linkedin.com/pulse/connecting-agent-easy-part-what-building-governed-mcp-dussol-xnwse/)
 
+→ **Run it**: [model-context-protocol](https://github.com/christian-dussol-ai-native/model-context-protocol) on GitHub, and [The agentic layer](../../labs/the-agentic-layer.md) in Labs
+
 ### Part three: what the July 28 revision changed
 
 The build hit a limit in the wrong place. Three days later, the protocol shipped its largest change since launch, and the first under foundation governance. Read separately it looks like six changes. Read together it describes one movement: **the core gets smaller, and most of what leaves it does not disappear. It moves somewhere it can be held.**
@@ -49,10 +51,7 @@ What the protocol stops specifying does not stop being required. When MCP carrie
 
 → **Read it**: [Medium](https://medium.com/@christian.dussol/mcps-july-28-revision-a-lighter-protocol-a-larger-ecosystem-3cca681e7b88) · [Primary source](https://blog.modelcontextprotocol.io/posts/2026-07-28/)
 
-### Build and lab
-
-* **GitHub**: [model-context-protocol](https://github.com/christian-dussol-ai-native/model-context-protocol)
-* **Runnable lab**: [The agentic layer](../../labs/the-agentic-layer.md)
+***
 
 Fewer risks in the protocol. More of them in your implementation.
 
