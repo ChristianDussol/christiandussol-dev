@@ -10,7 +10,7 @@ description: >-
 
 Connecting an agent to your cloud costs is a few lines of code. Deciding what it may ask, how often, and whether an auditor can trace it six months later is the real work.
 
-This episode is in two parts: what MCP is and how it works, then what building a governed one on top of real cost data taught me about where the protocol stops.
+This episode is in three parts: what MCP is and how it works, what building a governed one on top of real cost data taught me about where the protocol stops, and what the July 28 revision changed about where that boundary now sits.
 
 <figure><img src="https://3864580007-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F782Y46kG3IDKMjaaCmCh%2Fuploads%2Fzgyjo6HxQU7JaPBbRGxE%2F1.png?alt=media&#x26;token=2940f1f3-b8d4-4d01-b138-9029ba270d5a" alt=""><figcaption></figcaption></figure>
 
@@ -33,11 +33,29 @@ A server exposing Kubernetes cluster costs from OpenCost to an agent, under leas
 * **The call budget, and where a limit belongs.** It works inside one process and fails behind a load balancer. Not badly coded, badly placed. The revision published on July 28 did not create that limit and does not fix it: it removed what used to hide it
 * **One word, three questions.** Identity, quota and domain legitimacy do not live in the same layer. The build covers three of the four. Identity is the one it leaves implicit, because local is where it started
 
-### Read the field note
+→ **Read it**: [Medium](https://medium.com/@christian.dussol/connecting-an-agent-is-the-easy-part-what-building-a-governed-mcp-server-taught-me-d333f1e82365) · [LinkedIn Pulse](https://www.linkedin.com/pulse/connecting-agent-easy-part-what-building-governed-mcp-dussol-xnwse/)
 
-* **Medium article**: [Connecting an agent is the easy part: What building a governed MCP server taught me](https://medium.com/@christian.dussol/connecting-an-agent-is-the-easy-part-what-building-a-governed-mcp-server-taught-me-d333f1e82365)
-* **LinkedIn Pulse**: [Connecting an agent is the easy part: What building a governed MCP server taught me](https://www.linkedin.com/pulse/connecting-agent-easy-part-what-building-governed-mcp-dussol-xnwse/)
+### Part three: what the July 28 revision changed
+
+The build hit a limit in the wrong place. Three days later, the protocol shipped its largest change since launch, and the first under foundation governance. Read separately it looks like six changes. Read together it describes one movement: **the core gets smaller, and most of what leaves it does not disappear. It moves somewhere it can be held.**
+
+* **The property was already there.** MCP speaks JSON-RPC 2.0, whose 2010 specification opens by calling itself stateless. The revision is not converging on someone else's standard, it is returning to a property of the thing it was already built on
+* **Six times the core got smaller.** The handshake goes, routing moves to headers, the cache borrows Cache-Control, state becomes an explicit argument, the logging leaves. Even the missing-resource error falls back to the standard JSON-RPC code, which nobody else will write about and which is the whole movement in miniature
+* **The one that says the most.** What replaces MCP's own logging is OpenTelemetry, with W3C Trace Context propagation fixed in the specification. Not an analogy: the same standard, the same key names, the same tooling the rest of the industry already runs. **MCP did not invent a new way to observe. It stopped trying**
+* **Where the capability went.** Reading the six as removals misses half the revision. Capability moved into extensions, into the payload, into the infrastructure. Three directions, each a layer that can actually own what it receives. **This is not a protocol giving up. It is a protocol sorting**
+* **Two other readings.** Eleanor Lee reads the revision as a market document, asking who gains and who absorbs the cost, and supplies an answer to "why now" that the specification itself does not. Akamai's threat research team arrives at the same place from the security side
+
+What the protocol stops specifying does not stop being required. When MCP carried sessions, sessions were its problem. Identity, quota and audit are now yours to place. **The specification got lighter. The governance did not.**
+
+→ **Read it**: [Medium](https://medium.com/@christian.dussol/mcps-july-28-revision-a-lighter-protocol-a-larger-ecosystem-3cca681e7b88) · [Primary source](https://blog.modelcontextprotocol.io/posts/2026-07-28/)
+
+### Build and lab
+
 * **GitHub**: [model-context-protocol](https://github.com/christian-dussol-ai-native/model-context-protocol)
 * **Runnable lab**: [The agentic layer](../../labs/the-agentic-layer.md)
+
+Fewer risks in the protocol. More of them in your implementation.
+
+**New technology. Same operational questions.**
 
 Next in the series: AGENTS.md, the convention for giving an agent its instructions, built on this same server.
