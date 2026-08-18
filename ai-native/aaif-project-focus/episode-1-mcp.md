@@ -1,7 +1,7 @@
 ---
 description: >-
-  Wiring an agent through MCP takes a few lines. Governing what it may ask, how
-  often, and proving what it did, is the real work.
+  Connecting an agent is a few lines of code. Governing it is the work and the
+  July 28 revision moved where that boundary sits.
 ---
 
 # Episode 1: MCP
