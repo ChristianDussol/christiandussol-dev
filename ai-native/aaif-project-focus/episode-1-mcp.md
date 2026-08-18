@@ -14,10 +14,6 @@ This episode is in three parts: what MCP is and how it works, what building a go
 
 <figure><img src="https://3864580007-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F782Y46kG3IDKMjaaCmCh%2Fuploads%2Fzgyjo6HxQU7JaPBbRGxE%2F1.png?alt=media&#x26;token=2940f1f3-b8d4-4d01-b138-9029ba270d5a" alt=""><figcaption></figcaption></figure>
 
-### 📎 Visual companion
-
-[AAIF Project Focus: MCP carousel (PDF)](https://github.com/christian-dussol-ai-native/model-context-protocol/blob/main/carousel/aaif-project-focus-mcp.pdf)
-
 ### Part one: what MCP is
 
 For a reader who has not built one. The M×N problem it solves, three agents and three tools being nine bespoke integrations rather than three. The three primitives, tools, resources and prompts. Discovery through `tools/list` and `tools/call`, defined by the protocol rather than left to each integration.
@@ -35,6 +31,8 @@ A server exposing Kubernetes cluster costs from OpenCost to an agent, under leas
 
 → **Read it**: [Medium](https://medium.com/@christian.dussol/connecting-an-agent-is-the-easy-part-what-building-a-governed-mcp-server-taught-me-d333f1e82365) · [LinkedIn Pulse](https://www.linkedin.com/pulse/connecting-agent-easy-part-what-building-governed-mcp-dussol-xnwse/)
 
+📎 **See it**: [AAIF Project Focus: MCP carousel (PDF)](https://github.com/christian-dussol-ai-native/model-context-protocol/blob/main/carousel/aaif-project-focus-mcp.pdf)
+
 → **Run it**: [model-context-protocol](https://github.com/christian-dussol-ai-native/model-context-protocol) on GitHub, and [The agentic layer](../../labs/the-agentic-layer.md) in Labs
 
 ### Part three: what the July 28 revision changed
@@ -50,6 +48,8 @@ The build hit a limit in the wrong place. Three days later, the protocol shipped
 What the protocol stops specifying does not stop being required. When MCP carried sessions, sessions were its problem. Identity, quota and audit are now yours to place. **The specification got lighter. The governance did not.**
 
 → **Read it**: [Medium](https://medium.com/@christian.dussol/mcps-july-28-revision-a-lighter-protocol-a-larger-ecosystem-3cca681e7b88) · [Primary source](https://blog.modelcontextprotocol.io/posts/2026-07-28/)
+
+📎 **See it**: [A lighter protocol, a larger ecosystem carousel (PDF)](https://github.com/christian-dussol-ai-native/model-context-protocol/blob/main/carousel/AAIF%20Project%20Focus%20-%20MCP%20-%20A%20lighter%20protocol%2C%20a%20larger%20ecosystem.pdf)
 
 ***
 
