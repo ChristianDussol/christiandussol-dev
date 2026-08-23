@@ -52,19 +52,19 @@ Concretely: an agent permitted to read positions but never to place an order. An
 
 Project by project, with a working build at each step rather than a description.
 
-#### Episode 1: [MCP](episode-1-mcp.md)
+#### [Episode 1: MCP](episode-1-mcp.md)
 
-Wiring an agent to a system you cannot afford to get wrong. The connection layer, made concrete.
+Wiring an agent to a system you cannot afford to get wrong. The connection layer, made concrete: a governed server built on live cost data, and what the July 28 revision moved.
 
-#### Episode 2: AGENTS.md
+#### [Episode 2: AGENTS.md](episode-2-agents-md.md)
 
-Making agent behavior predictable and reviewable.
+Making agent behavior predictable and reviewable. The format, then the evidence, which turns out not to be uniform.
 
 #### Episode 3: goose
 
 Running a local-first agent against your own tools and models. Where the three building blocks converge.
 
-The governed MCP server behind Episode 1 is runnable today, offline and without a cluster: see [The agentic layer](../../labs/the-agentic-layer.md) in Labs.
+The builds behind these episodes are runnable today, offline and without a cluster: see [The agentic layer](../../labs/the-agentic-layer.md) in Labs.
 
 ***
 
