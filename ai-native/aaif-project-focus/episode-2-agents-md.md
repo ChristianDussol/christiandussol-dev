@@ -8,6 +8,8 @@ AGENTS.md is where a repository writes that down.
 
 This episode is in two halves. The first is the format. The second is the evidence, **and the evidence is not uniform.**
 
+<figure><img src="../../.gitbook/assets/1 (11).png" alt=""><figcaption></figcaption></figure>
+
 ### Part one: the format
 
 A Markdown file at the root of your repository. No schema, no frontmatter, no tooling. Nothing is required: no mandatory headings, no fixed order. The specification suggests a project overview, build and test commands, code style, testing instructions and security considerations. **Suggestions, not obligations.**
