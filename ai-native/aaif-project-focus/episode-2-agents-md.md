@@ -1,3 +1,9 @@
+---
+description: >-
+  The open format now in 60,000 repositories, and what two studies with opposite
+  conclusions actually say about whether it works.
+---
+
 # Episode 2: AGENTS.md
 
 ### **A README for agents**
