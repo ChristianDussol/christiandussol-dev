@@ -10,6 +10,8 @@ description: >-
 
 A protocol says how an agent reaches your systems. A convention says how a repository explains itself. Neither of them runs anything.
 
+<figure><img src="../../.gitbook/assets/AAIF Project Focus - goose.png" alt=""><figcaption></figcaption></figure>
+
 goose is the third piece: **the local process that holds a model, its tools and a task together for the length of a session.** Started inside Block, built in Rust, and donated in December 2025 to the Agentic AI Foundation, where it sits alongside MCP and AGENTS.md as one of the three founding projects.
 
 📎 **See it**: [AAIF Project Focus: goose carousel (PDF)](https://github.com/christian-dussol-ai-native/goose/blob/main/carousel/AAIF%20Project%20Focus%20-%20goose.pdf), an 11-slide introduction that assumes no prior exposure to agentic coding tools
