@@ -30,6 +30,7 @@
 * [AAIF Project Focus](ai-native/aaif-project-focus/README.md)
   * [Episode 1: MCP](ai-native/aaif-project-focus/episode-1-mcp.md)
   * [Episode 2: AGENTS.md](ai-native/aaif-project-focus/episode-2-agents-md.md)
+  * [Episode 3: goose](ai-native/aaif-project-focus/episode-3-goose.md)
 * [From Prompts to Packages](ai-native/skills-series/README.md)
   * [Part 1: How Claude Code Skills work](ai-native/skills-series/part-1-how-claude-code-skills-work.md)
   * [Part 2: Building a real Skill: kyverno-policy-generator](ai-native/skills-series/part-2-building-a-real-skill-kyverno-policy-generator.md)
