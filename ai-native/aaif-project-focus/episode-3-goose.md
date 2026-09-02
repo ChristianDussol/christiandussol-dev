@@ -1,3 +1,9 @@
+---
+description: >-
+  A protocol connects, a convention explains, a runtime executes. What goose is,
+  and where it sits among the three founding AAIF projects.
+---
+
 # Episode 3: goose
 
 ### **The runtime that brings them together**
