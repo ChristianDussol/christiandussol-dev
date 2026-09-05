@@ -6,7 +6,7 @@ description: >-
 
 # The AI substrate
 
-Two floors of the AI substrate, made observable without hardware. The accelerators are simulated and the model server is a stand-in, but the scheduling and the routing decisions are real. That is the line these labs are careful to draw.
+Three floors of the AI substrate, made observable without hardware. The accelerators are simulated, the model server is a stand-in and the cluster is a discrete-event model, but the scheduling, routing and queueing decisions are real. That is the line these labs are careful to draw.
 
 ### Allocation: walking the Prioritized List cascade with DRA
 
@@ -18,7 +18,7 @@ It runs on Kind with the SIG Node example driver, so the GPUs are simulated. The
 
 → [dra-prioritized-list-tutorial](https://github.com/christian-dussol-ai-native/dynamic-resource-allocation/tree/main/dra-prioritized-list-tutorial)
 
-📄 The writing behind it: Allocation: DRA
+📄 The writing behind it: [Allocation: DRA](../ai-native/kubernetes-as-ai-substrate/allocation-dra.md)
 
 #### What I learned
 
@@ -32,6 +32,30 @@ My first instinct for testing the cascade was wrong, and the correction is the l
 
 Simulated accelerators are enough to learn the allocation semantics, because the semantics are the standard. What changes in production is the driver underneath, not the manifests on top. That is the promise of a portable primitive, and it is testable on a laptop.
 
+### Serving: what a simulator lets you learn without a GPU
+
+**What it shows.** BLIS is a CPU-only, deterministic discrete-event simulator for LLM inference serving. This lab does not try to teach it exhaustively. It asks one question and answers it with commands you can run: **what can you actually learn about serving without touching a GPU, and where does silicon become unavoidable?**
+
+Three labs. A survey of what the tool lets you declare, concluding nothing. One baseline run, to see it work and learn to read its output. Then roofline against trained-physics latency models, which is where calibration stops being an abstraction.
+
+The grid underneath is what makes it more than a tutorial. Every mechanism gets three separate questions that are easy to collapse into one: can I **declare** it, is the mechanism **and its cost** modeled, and does that cost **match real hardware**? A flag that exists does not prove the simulator models what the dimension costs.
+
+**What it needs.** Go 1.24, jq, about 2 GB of disk. Runs in seconds on a laptop. No GPU, and that is the point.
+
+→ [blackbox-inference-simulator](https://github.com/christian-dussol-ai-native/blackbox-inference-simulator)
+
+📄 The floor it belongs to: [Serving: llm-d](../ai-native/kubernetes-as-ai-substrate/serving-llm-d.md)
+
+#### What I learned
+
+The third level is mostly out of reach on a CPU, and saying so is the lab. BLIS publishes a calibration scope, 7 to 9% median error over 36 validation experiments on H100, A100 and L40S. Outside that scope fidelity is unknown, and no amount of CPU experimentation will establish it. That is a limit to state, not one to work around.
+
+Writing the expectation down before running is the only part of the method I would call non-negotiable. The gap between what you predicted and what the simulator printed is the whole lesson, and it evaporates the moment you reconstruct it afterwards. Especially when the prediction was wrong.
+
+Determinism changes what a lab can promise. Same seed, same version, same flags, identical output to the bit. A reader can reproduce a number rather than trust it, which is rare enough in this field to be worth the constraint.
+
+And the honest caveat has to be first, not last. Simulated is not measured. Every number here is the output of a latency model, and the only defensible way to use one is to say so.
+
 ### Routing: model-aware inference routing with GAIE and agentgateway
 
 **What it shows.** The three GAIE primitives wired together on Kind: an InferencePool grouping model servers, an Endpoint Picker the Gateway consults over ext-proc before every request, and an InferenceObjective declaring which workload wins when capacity is contended. A vLLM simulator stands in for a model server, so none of it needs a GPU.
@@ -44,7 +68,7 @@ The InferenceObjective is the part worth dwelling on from a regulated seat. Prio
 
 → [gateway-api-inference-extension](https://github.com/christian-dussol-ai-native/gateway-api-inference-extension)
 
-📄 The writing behind it: Routing: Gateway API Inference Extension
+📄 The writing behind it: [Routing: Gateway API Inference Extension](../ai-native/kubernetes-as-ai-substrate/routing-gateway-api-inference-extension.md)
 
 #### What I learned
 

@@ -16,7 +16,7 @@ The work is split across three organizations, mirroring the three domains this s
 
 ***
 
-## Cloud Native
+### Cloud Native
 
 CNCF projects, Kubernetes internals, policy-as-code, and security. The infrastructure foundation.
 
@@ -32,7 +32,7 @@ Also here:
 
 ***
 
-## Cloud Computing
+### Cloud Computing
 
 Hyperscaler architecture and cloud financial management. The layer underneath.
 
@@ -47,7 +47,7 @@ Also here:
 
 ***
 
-## AI Native
+### AI Native
 
 The AI substrate: accelerator allocation, distributed inference, routing and the agentic layer.
 
@@ -56,14 +56,16 @@ The AI substrate: accelerator allocation, distributed inference, routing and the
 Also here:
 
 * [**dynamic-resource-allocation**](https://github.com/christian-dussol-ai-native/dynamic-resource-allocation), GPU scheduling with DRA, including the [Prioritized List tutorial](https://github.com/christian-dussol-ai-native/dynamic-resource-allocation/tree/main/dra-prioritized-list-tutorial): a hands-on lab for GPU tier fallback, runnable on Kind
+* [**blackbox-inference-simulator**](https://github.com/christian-dussol-ai-native/blackbox-inference-simulator), a reproducible lab on BLIS, the CPU-only discrete-event simulator for LLM serving. What you can learn without a GPU, and where silicon becomes unavoidable
 * [**gateway-api-inference-extension**](https://github.com/christian-dussol-ai-native/gateway-api-inference-extension), model-aware request routing for LLM inference (GAIE and agentgateway). Reproducible on Kind, no GPU required
 * [**model-context-protocol**](https://github.com/christian-dussol-ai-native/model-context-protocol), a governed MCP server exposing Kubernetes cost data from OpenCost to an agent, under least privilege, audit and a budget guard. Runs fully offline in synthetic mode, no cluster required
+* [**AGENTS.md**](https://github.com/christian-dussol-ai-native/AGENTS.md) and [**goose**](https://github.com/christian-dussol-ai-native/goose), educational material on the two other founding AAIF projects: the convention that gives an agent its context, and the runtime that executes it
 
 → [Browse the organization](https://github.com/christian-dussol-ai-native)
 
 ***
 
-## Why three organizations
+### Why three organizations
 
 Not an accident, and not tidiness for its own sake. The three domains have different audiences, different lifecycles, and different reasons to exist.
 

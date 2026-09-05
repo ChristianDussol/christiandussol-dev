@@ -6,7 +6,7 @@ description: >-
 
 # Serving: llm-d
 
-## From GPU Allocation to Distributed Inference: Understanding llm-d
+**From GPU allocation to distributed inference: understanding llm-d.**
 
 DRA gets you the hardware. It does not get you a served model.
 
@@ -27,3 +27,11 @@ llm-d makes prefill and decode disaggregation a first-class pattern: separate po
 
 * **Medium article**: [From GPU Allocation to Distributed Inference: Understanding llm-d (Concept Brief)](https://medium.com/@christian.dussol/from-gpu-allocation-to-distributed-inference-understanding-llm-d-concept-brief-42cffc4cb946)
 * **LinkedIn Pulse**: [From GPU Allocation to Distributed Inference](https://www.linkedin.com/pulse/from-gpu-allocation-distributed-inference-llm-d-concept-dussol-7wcye/)
+
+### What I could not test
+
+I wrote this piece from the architecture and the code, not from a running cluster, because the realistic case needs multi-GPU infrastructure. That left a question open: what can you learn about this floor before you have the hardware?
+
+A discrete-event simulator turns out to answer part of it, and to be precise about the part it cannot.
+
+→ **Run it**: [Serving: what a simulator lets you learn without a GPU](../../labs/the-ai-substrate.md) in Labs
