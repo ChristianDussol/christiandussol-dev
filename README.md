@@ -19,7 +19,7 @@ Everything here starts with something that runs. The repository is the proof. Th
 
 ***
 
-### Where to start&#x20;
+### Where to start
 
 [**CNCF Project Focus**](cloud-native/cncf-project-focus/) Hands-on deep-dives into CNCF projects, organized by thematic arc. Infrastructure foundations, then observability, then AI.
 
@@ -35,12 +35,13 @@ Everything here starts with something that runs. The repository is the proof. Th
 
 ### The rest of the site
 
-* [**Cloud Native**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/cloud-native), the infrastructure foundation: Kubernetes internals, policy-as-code, observability
-* [**AI Native**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/ai-native), what is being built on top: GPU allocation, distributed inference, agentic protocols
-* [**Cloud Computing**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/cloud-computing), the hyperscaler layer and the FinOps discipline that makes it sustainable
-* [**Security**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/cloud-ai-security), the two OWASP Top 10s, for APIs and for LLMs, read from a platform seat
-* [**Learning Journey**](https://app.gitbook.com/s/782Y46kG3IDKMjaaCmCh/learning-journey), the method, the certifications, and the study material they produced
-* [**GitHub Knowledge**](knowledge-hub.md), the code behind the writing, across three GitHub organizations
+* [**Cloud Native**](cloud-native/kubernetes/), the infrastructure foundation: Kubernetes internals, policy-as-code, observability
+* [**AI Native**](ai-native/kubernetes-ai-conformance.md), what is being built on top: GPU allocation, distributed inference, agentic protocols
+* [**Cloud Computing**](cloud-computing/finops/), the hyperscaler layer and the FinOps discipline that makes it sustainable
+* [**Security**](cloud-ai-security/security/), the two OWASP Top 10s, for APIs and for LLMs, read from a platform seat
+* [**Learning Journey**](learning-journey/how-i-learn.md), the method, the certifications, and the study material they produced
+* [**Labs**](labs/), ten reproducible builds behind the writing. Most run on a laptop, no GPU and no cloud account required
+* [**Knowledge Hub**](knowledge-hub.md), the code behind the writing, across three GitHub organizations
 
 ***
 
