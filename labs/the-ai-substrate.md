@@ -44,7 +44,7 @@ The grid underneath is what makes it more than a tutorial. Every mechanism gets 
 
 → [blackbox-inference-simulator](https://github.com/christian-dussol-ai-native/blackbox-inference-simulator)
 
-📄 The floor it belongs to: [Serving: llm-d](../ai-native/kubernetes-as-ai-substrate/serving-llm-d.md)
+📄 The writing behind it: [Serving: llm-d](../ai-native/kubernetes-as-ai-substrate/serving-llm-d.md), part two · [Medium](https://medium.com/@christian.dussol/exploring-inference-architecture-without-a-gpu-cluster-concept-brief-49786a876fe9) · [LinkedIn Pulse](https://www.linkedin.com/pulse/exploring-inference-architecture-without-gpu-cluster-concept-dussol-t1w4e/)
 
 #### What I learned
 
