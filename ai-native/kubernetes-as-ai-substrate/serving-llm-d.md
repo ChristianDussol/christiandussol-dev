@@ -1,7 +1,7 @@
 ---
 description: >-
-  A GPU is not a served model. Prefill is compute-bound, decode is memory-bound,
-  and llm-d makes their disaggregation a first-class pattern.
+  Prefill is compute-bound, decode is memory-bound. Understanding llm-d, then
+  exploring the architecture without owning a GPU cluster.
 ---
 
 # Serving: llm-d
