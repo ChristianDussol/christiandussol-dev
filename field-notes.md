@@ -1,7 +1,7 @@
 ---
 description: >-
-  Reflections on the cloud-native landscape and the shifts reshaping the
-  industry. Signals tracked, tools evaluated, field reports from production.
+  Reflections on the cloud-native landscape. Signals tracked, conferences
+  reported, tools evaluated, field reports from production.
 ---
 
 # Field Notes
