@@ -26,7 +26,19 @@ The pattern underneath: conformance is becoming a procurement filter. When an en
 
 ## Conference highlights
 
-_An occasional format. One talk that touched something I was already working on, and what it left me thinking about._
+_An occasional format. What I went to see, what the speakers actually said, and what it left me thinking about._
+
+#### Notes from "where the agentic stack is being built"
+
+**AGNTCon and MCPCon Europe, Amsterdam, September 2026.** Two days at the Agentic AI Foundation's first European event, attended for the Cloud Native Days France editorial team.
+
+I went expecting agent identity and audit to be open problems. They are largely answered, and converging on the same architectural idea. What is not answered is what happens at the boundary between two organisations, and a hallway conversation with a regulated team turned my opening question inside out.
+
+The report covers the keynotes, the July MCP revision presented by its co-creator, what the agentic ecosystem is borrowing from cloud-native, and where the standardisation effort currently stops.
+
+→ [LinkedIn Pulse](https://www.linkedin.com/pulse/notes-from-where-agentic-stack-being-built-christian-dussol-vjhle/) · [Medium](https://medium.com/@christian.dussol/notes-from-where-the-agentic-stack-is-being-built-9d5d68b5708c)
+
+→ The three projects this event was about: [AAIF Project Focus](ai-native/aaif-project-focus/)
 
 #### Kubernetes and the Missing Half of Energy-Aware Scheduling
 
