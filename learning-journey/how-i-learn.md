@@ -43,6 +43,7 @@ The study material I wrote for myself turned out to be useful to other people, w
 * [**Certified GitOps Associate** (CGOA)](https://www.credly.com/badges/359c4e8d-ca58-43d4-a1e1-82fea1de2233)
 * [**Cloud-Native API Security Analyst** (CASA)](https://www.credly.com/badges/55aab8d1-46b6-4b3d-a716-7c0405d710b4/public_url)
 * [**FinOps Certified Practitioner**](https://www.credly.com/badges/488211fe-1e5a-4645-b6a4-b5e4acd8af1d/public_url)
+* [**FinOps Certified: AI Value**](https://www.credly.com/badges/dd6c681d-63a9-4ab6-b490-514ba2eb691e/public_url)
 
 #### Data, AI and security
 
@@ -58,6 +59,5 @@ The study material I wrote for myself turned out to be useful to other people, w
 
 * **Certified Kubernetes Application Developer** (CKAD)
 * **Kyverno Certified Associate** (KCA)
-* **FinOps Certified: AI Value**, with [Level 1](https://www.credly.com/badges/3c881a1e-cf26-4284-8a2f-be5547d6f756) and [Level 2](https://www.credly.com/badges/24ee7c6f-23f9-4115-a36e-6e8c3a6cef9f) earned. Three levels lead to the certification exam.
 
 The certifications will date. The decision frameworks will not.
