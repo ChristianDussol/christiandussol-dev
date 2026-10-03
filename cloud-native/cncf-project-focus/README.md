@@ -17,7 +17,7 @@ Every episode follows the same structure: a working GitHub lab, a Medium deep-di
 
 The series is organized into three arcs.
 
-### Arc 1: Infrastructure Foundations
+## Arc 1: Infrastructure Foundations
 
 **Status: complete**
 
@@ -27,17 +27,17 @@ The plumbing layer. How do you compose serverless, infrastructure provisioning, 
 * Episode 2, [Crossplane](arc-1-crossplane.md): One Kubernetes API, any cloud provider
 * Episode 3, [Cilium](arc-1-cilium.md): Kernel-native Kubernetes networking
 
-### Arc 2: Observability
+## Arc 2: Observability
 
-**Status: in progress**
+**Status: complete**
 
-You cannot optimize what you cannot see. From metrics collection to distributed tracing to service mesh, the observability layer is what turns a platform from operable to ownable.
+You cannot optimize what you cannot see. From metrics collection to distributed tracing to service mesh, the observability layer is what turns a platform from operable to ownable. Measure, trace, control.
 
 * Episode 4, [Prometheus](arc-2-prometheus.md): Cloud-native metrics with FinOps-grade governance
 * Episode 5, [OpenTelemetry](arc-2-opentelemetry.md): The unified observability pipeline
-* Episode 6, Istio: Ambient mode and zero-trust networking, _in progress_
+* Episode 6, [Istio](arc-2-istio.md): Service mesh, ambient mode and zero-trust networking
 
-### Arc 3: AI-Native Platform
+## Arc 3: AI-Native Platform
 
 **Status: planned (2026)**
 
