@@ -68,4 +68,7 @@
   * [The AI substrate](labs/the-ai-substrate.md)
   * [The agentic layer](labs/the-agentic-layer.md)
   * [Kubernetes operations](labs/kubernetes-operations.md)
+* [Community](community/README.md)
+  * [Cloud Native Days France](community/cloud-native-days-france.md)
+  * [KyvernoCon Europe 2026](community/kyvernocon-europe-2026.md)
 * [About](about.md)
