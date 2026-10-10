@@ -18,13 +18,14 @@ A service mesh moves that layer out of the application. **The app keeps business
 * **The architecture in one sentence.** You declare, istiod distributes, the proxies enforce. Config through xDS, identity through a built-in CA
 * **Zero trust in eight lines.** A mesh-wide `PeerAuthentication` in STRICT mode, and plaintext stops being accepted anywhere. Then an `AuthorizationPolicy` so that only service A may call service B, by workload identity rather than by IP
 * **Traffic through the Gateway API.** A 90/10 split to a v2 and a two-second request timeout, expressed in an `HTTPRoute` rather than in a vendor CRD
-* **Observability for free.** `istio_requests_total` gives you 5xx by caller on a service you never instrumented. Latency, traffic and errors, which is the base you need before writing an SLO
-* **Ambient mode, and why it changes the trade-off.** No sidecars: one ztunnel per node handling L4 and mTLS over HBONE, with an optional waypoint for L7. **L4 everywhere, L7 only where you need it**
+* **Observability for free.** `istio_requests_total` gives you 5xx by caller on a service you never instrumented. Latency, traffic and errors, three of the four golden signals, the same way for every service whoever wrote it
+* **Ambient mode, and why it changes the trade-off.** No sidecars: one ztunnel per node handling L4 and mTLS, with an optional waypoint for L7. **L4 everywhere, L7 only where you need it**
+* **And whether you need one at all.** A mesh is infrastructure you operate. The article says plainly when it is not worth it: a few services in one repository, no platform team to run it, or nothing to take out of the services in the first place
 
 ### Read the deep-dive
 
-* **Medium article**: _publishing shortly_
+* **Medium article**: [Understanding Istio: a hands-on introduction to the service mesh](https://medium.com/@christian.dussol/understanding-istio-a-hands-on-introduction-to-the-service-mesh-04b162b83480)
 * **GitHub lab**: [github.com/christian-dussol-cloud-native/istio](https://github.com/christian-dussol-cloud-native/istio)
 * **Runnable lab**: [Service mesh telemetry with Istio](../../labs/observability.md)
 
-The lab runs on kind with Istio 1.31 in ambient mode and Gateway API v1.6, five steps mapped one to one onto the carousel slides. The most instructive of them is the one where a correct policy breaks the moment a waypoint enters the path.
+The lab runs on a laptop in about 45 minutes, on kind with Istio in ambient mode, every step mapped onto a carousel slide. The most instructive of them is the one where a correct policy breaks the moment a waypoint enters the path.
