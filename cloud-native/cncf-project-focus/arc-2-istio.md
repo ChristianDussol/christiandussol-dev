@@ -8,6 +8,8 @@ Look at a single service-to-service call and five questions appear at once. Is i
 
 A service mesh moves that layer out of the application. **The app keeps business logic. The mesh handles security, traffic and telemetry.**
 
+<figure><img src="../../.gitbook/assets/1 (12).png" alt=""><figcaption></figcaption></figure>
+
 ### 📎Visual companion
 
 [CNCF Project Focus #6: Istio carousel (PDF)](https://github.com/christian-dussol-cloud-native/istio/blob/main/carousel/CNCF%20Project%20Focus%20%236%20-%20Istio.pdf)
