@@ -1,3 +1,9 @@
+---
+description: >-
+  Istio in ambient mode: ztunnel and waypoints, zero trust in eight lines,
+  traffic through the Gateway API, and whether you need a service mesh at all.
+---
+
 # Episode 6: Istio
 
 **Service mesh for Kubernetes.**

@@ -1,3 +1,10 @@
+---
+description: >-
+  Program committee member for KyvernoCon Europe 2026 in Amsterdam: reviewing
+  talks for people running policy-as-code in production rather than evaluating
+  it.
+---
+
 # KyvernoCon Europe 2026
 
 **Program committee member.** KyvernoCon Europe 2026, a co-located event at KubeCon + CloudNativeCon Europe. Amsterdam, March 2026.

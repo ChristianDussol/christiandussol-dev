@@ -1,3 +1,10 @@
+---
+description: >-
+  Editorial team and selection committee for Cloud Native Days France, the
+  volunteer-run French-speaking cloud-native conference. Next edition 3 June
+  2027.
+---
+
 # Cloud Native Days France
 
 **Editorial team and selection committee.** Cloud Native France, the non-profit association behind the event. Since 2026.

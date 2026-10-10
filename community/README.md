@@ -1,3 +1,10 @@
+---
+description: >-
+  Volunteer work in the cloud-native ecosystem: programme committees, talk
+  review and editorial roles. Giving some time back to the communities I learned
+  from.
+---
+
 # Community
 
 Giving some time back to the communities I learned from.
