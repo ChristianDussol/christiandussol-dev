@@ -14,6 +14,8 @@ A Job copies 443.5 MiB of files from a remote Apache mirror. The first read take
 
 The China Merchants Bank case study puts it in one line: "when data is not ready, allocated accelerators wait." Once the GPU is shared, a GPU waiting on data is the next thing being wasted.
 
+<figure><img src="../../.gitbook/assets/CNCF Project Focus - Fluid.png" alt=""><figcaption></figcaption></figure>
+
 ### 📎 Visual companion
 
 [CNCF Project Focus #8: Fluid carousel (PDF)](https://github.com/christian-dussol-cloud-native/fluid/blob/main/carousel/CNCF%20Project%20Focus%20%238%20-%20Fluid.pdf)

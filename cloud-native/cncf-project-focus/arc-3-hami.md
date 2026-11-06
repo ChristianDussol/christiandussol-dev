@@ -12,6 +12,8 @@ Arc 3 asks three questions in order. HAMi answers the first: how do workloads sh
 
 Kubernetes counts `nvidia.com/gpu` as whole devices. A pod that needs 4000 MiB still gets the entire card, and ten pods with that same small request lock ten GPUs. You pay for ten cards, and your workloads use a fraction of the memory on them.
 
+<figure><img src="../../.gitbook/assets/CNCF Project Focus - HAMi.png" alt=""><figcaption></figcaption></figure>
+
 ### 📎 Visual companion
 
 [CNCF Project Focus #7: HAMi carousel (PDF)](https://github.com/christian-dussol-cloud-native/hami/blob/main/carousel/CNCF%20Project%20Focus%20%237%20-%20HAMi.pdf)
