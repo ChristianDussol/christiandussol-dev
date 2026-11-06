@@ -15,6 +15,8 @@
   * [Episode 4: Prometheus](cloud-native/cncf-project-focus/arc-2-prometheus.md)
   * [Episode 5: OpenTelemetry](cloud-native/cncf-project-focus/arc-2-opentelemetry.md)
   * [Episode 6: Istio](cloud-native/cncf-project-focus/arc-2-istio.md)
+  * [Episode 7: HAMi](cloud-native/cncf-project-focus/arc-3-hami.md)
+  * [Episode 8: Fluid](cloud-native/cncf-project-focus/arc-3-fluid.md)
 
 ## AI Native
 

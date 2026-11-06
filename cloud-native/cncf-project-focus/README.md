@@ -1,8 +1,8 @@
 ---
 description: >-
   Hands-on CNCF deep-dives organized by thematic arc: infrastructure,
-  observability, AI native infrastructure and platform. Working labs and
-  governance patterns.
+  observability, Cloud Native AI infrastructure and platform. Working labs and
+  governance.
 ---
 
 # CNCF Project Focus
@@ -37,19 +37,19 @@ You cannot optimize what you cannot see. From metrics collection to distributed 
 * Episode 5, [OpenTelemetry](arc-2-opentelemetry.md): The unified observability pipeline
 * Episode 6, [Istio](arc-2-istio.md): Service mesh, ambient mode and zero-trust networking
 
-## Arc 3: AI Native Infrastructure
+## Arc 3: Cloud Native AI Infrastructure
 
-**Status: next**
+**Status: in progress**
 
-One question runs through the whole arc: how do you make an AI workload fit on hardware that was never sized for it? Sharing the accelerator, feeding it fast enough to keep it busy, and deciding which job gets in and when. Every episode has to show a primitive that Kubernetes absorbs, otherwise it does not belong here.
+Three questions behind running an AI workload on Kubernetes, one per episode: how do workloads share a GPU, how do they get their data, and when is a workload admitted? Each episode has to show one primitive that Kubernetes absorbs, otherwise it does not belong in the arc.
 
-* Episode 7, HAMi: Accelerator sharing, for when a whole GPU is more than the workload needs
-* Episode 8, Fluid: Feeding the compute, because load time belongs to elasticity rather than to storage tuning
-* Episode 9, Kueue and Volcano: Batch admission and gang scheduling, the right to enter
+* Episode 7, [HAMi](arc-3-hami.md): Heterogeneous GPU sharing on Kubernetes
+* Episode 8, [Fluid](arc-3-fluid.md): Dataset orchestration and caching on Kubernetes
+* Episode 9, Kueue and Volcano: Batch admission and gang scheduling, closing the arc
 
 The three compose into one chain: what the workload runs on, how it is fed, and who is allowed in. It is also where the CNCF draws its own line, with the AI Inference and Agentic track at KubeCon separating scheduling and accelerator utilization from model serving and routing.
 
-## Arc 4: AI Native Platform
+## Arc 4: Cloud Native AI Platform
 
 **Status: planned**
 
@@ -57,4 +57,5 @@ Once the workload fits on the hardware, a different question starts, and it belo
 
 * Episode 10, Kubeflow: Model lifecycle on Kubernetes
 * Episode 11, KServe: Model serving at scale
-* Episode 12, KAgent: Agentic orchestration
+* Episode 12, KAgent: Agent execution
+* Episode 13, Agent Substrate: Agent execution at scale, closing the arc
